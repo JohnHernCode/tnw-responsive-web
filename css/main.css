@@ -5,6 +5,7 @@ body {
   font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
   font-size: 14px;
   /* background-color: black; */
+  width: 100%;
 }
 
 .nav-bar {
@@ -16,6 +17,7 @@ body {
   background-color: white;
 }
 
+/*Logo Area*/
 .logo {
   left: 0;
   top: 0;
@@ -33,4 +35,87 @@ body {
   position: relative;
   background-color: black;
   padding: 16px 20px;
+}
+
+.logo-hover {
+  padding-bottom: 10px;
+  color: white;
+  list-style: none;
+}
+
+.logo-hover a {
+  text-decoration: none;
+  color: white;
+}
+
+.logo ul.logo-hover {
+  display: none;
+  background-color: black;
+  margin-top: 0;
+}
+
+.logo:hover ul.logo-hover {
+  display: block;
+}
+
+/*nav bar thats hidden*/
+.link-bar {
+    display: none;
+}
+
+
+
+
+
+
+/*main body*/
+.main-body {
+  width: 100%;
+  padding-top: 48px;
+  position: relative;
+  display: block;
+}
+
+/*article sections*/
+section {
+  display: grid;
+  position: relative;
+  padding: 4px;
+  grid-gap: 10px;
+}
+
+section article {
+    min-height: 30vh;
+    position: relative;
+}
+.cover {
+    float: left;
+    overflow: hidden;
+    padding: 4px;
+    width: 100%;
+}
+
+.image-box {
+    background-image: url(/images/header-image-AI-is-the-future-of-home-security-spotcam-796x417.png);
+    height: 214px;
+}
+
+.image-header {
+    position: absolute;
+    padding: 14px 12px;
+    bottom: 4px;
+    left: 4px;
+    top: 4px;
+    margin-top: 60px;
+    font-weight: 900;
+    font-size: 16px;
+    color: white;
+}
+
+.image-header  ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    color: darkslategray;
+
 }
