@@ -1,5 +1,5 @@
 body {
-  font-family: 'ARS Maquette Pro', Arial, Helvetica, sans-serif;
+  font-family: "ARS Maquette Pro", Arial, Helvetica, sans-serif;
   font-size: 14px;
   margin: 0;
   padding: 0 0;
@@ -15,7 +15,7 @@ body {
   display: flex;
   justify-content: flex-end;
   z-index: 999;
-  box-shadow: 0 4px 2px -2px rgba(0,0,0,.2);
+  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
 }
 
 /*Logo Area*/
@@ -26,8 +26,7 @@ body {
   width: 106px;
   height: 48px;
   background-color: black;
-  box-shadow: 0 4px 2px -2px rgba(0,0,0,.2);
- 
+  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
 }
 
 .logo img {
@@ -41,7 +40,7 @@ body {
 
 .icon1 {
   height: 48px;
-  opacity: .25;
+  opacity: 0.25;
   padding: 16px;
   width: 48px;
 }
@@ -51,7 +50,7 @@ body {
   width: 48px;
 }
 
-.icon2 i.fas{
+.icon2 i.fas {
   color: #ff4500;
 }
 
@@ -91,13 +90,257 @@ body {
 }
 
 /*main area*/
+
 main {
   padding-top: 60px;
-  font-family: 'ARS Maquette Pro', Arial, Helvetica, sans-serif;
+  font-family: "ARS Maquette Pro", Arial, Helvetica, sans-serif;
   font-size: 12px;
   position: relative;
 }
 
+.img-container-a {
+  max-width: 460px;
+  background-image: linear-gradient(
+      95deg,
+      rgba(150, 73, 60, 0.8),
+      rgba(136, 136, 206, 0.7)
+    ),
+    url(Assets/images/SECTION1/cyberlocks-730x422.jpg);
+  left: 0;
+  top: 0;
+  height: 240px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+}
+
+.img-container-a h2 a {
+  color: white;
+  font-family: Avalon, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 22px;
+  margin-left: 10px;
+  width: 90%;
+}
+
+.img-container-b {
+  max-width: 460px;
+  background-image: linear-gradient(
+      95deg,
+      rgba(150, 73, 60, 0.8),
+      rgba(136, 136, 206, 0.7)
+    ),
+    url(Assets/images/SECTION1/Untitled-design-2020-11-30T173709.270-796x417.png);
+  left: 0;
+  top: 0;
+  height: 240px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 10px;
+}
+
+.img-container-b h2 a {
+  color: white;
+  font-family: Avalon, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 22px;
+  margin-left: 10px;
+  width: 80%;
+}
+
+.img-container-c {
+  max-width: 460px;
+  background-image: linear-gradient(
+      95deg,
+      rgba(150, 73, 60, 0.8),
+      rgba(136, 136, 206, 0.7)
+    ),
+    url(Assets/images/SECTION1/1-copy-8-796x417.jpg);
+  left: 0;
+  top: 0;
+  height: 240px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.img-container-c h2 a {
+  color: white;
+  font-family: Avalon, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 22px;
+  margin-left: 10px;
+  width: 80%;
+}
+
+h2 {
+  margin-top: 100px;
+}
+
+.section-a ul,
+p,
+a {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-decoration: none;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.section-a ul,
+p,
+a {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-decoration: none;
+  margin-top: 10px;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+/* .img-container-b .date {
+  display: none;
+ }
+
+ .img-container-c .date {
+  display: none;
+ } */
+
+.section-a ul {
+  margin-right: 50px;
+}
+
+.section-b,
+.section-c {
+  max-width: 460px;
+}
+
+.section-b .img-logo a {
+  max-width: 75px;
+  display: block;
+  background-image: linear-gradient(
+      95deg,
+      rgba(150, 73, 60, 0.8),
+      rgba(136, 136, 206, 0.7)
+    ),
+    url(Assets/images/SECTION1/1-copy-8-796x417.jpg);
+  left: 0;
+  top: 0;
+  height: 75px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 999999;
+}
+
+.p-tag a {
+  font-size: 14px;
+}
+.a-link {
+  margin-top: 0px;
+}
+.section-b .img-box {
+  display: grid;
+  grid-template-columns: 75px 1fr;
+}
+
+.section-c ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.card-1 {
+  max-width: 460px;
+  background-image: url(Assets/images/SECTION1/1-copy-8-796x417.jpg);
+  left: 0;
+  top: 0;
+  height: 240px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.card-2 {
+  max-width: 460px;
+  background-image: url(Assets/images/SECTION1/1-copy-8-796x417.jpg);
+  left: 0;
+  top: 0;
+  height: 240px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.card-3 {
+  max-width: 460px;
+  background-image: url(Assets/images/SECTION1/1-copy-8-796x417.jpg);
+  left: 0;
+  top: 0;
+  height: 240px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.img-mini-1 {
+  max-width: 75px;
+  display: block;
+  background-image: url(Assets/images/SECTION1/1-copy-8-796x417.jpg);
+  left: 0;
+  top: 0;
+  height: 75px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 999999;
+}
+.section-c {
+  margin-left: 20px;
+}
+.section-c h2 {
+  color: red;
+  font-size: 30px;
+  line-height: 32px;
+}
+
+.section-c ul {
+  list-style: none;
+  color: red;
+}
+.section-c ul a {
+  list-style: none;
+  color: red;
+}
+
+.lastest-fund h4 {
+  color: white;
+  margin-top: 10px;
+  padding-top: 10px;
+  background-color: red;
+  width: 100%;
+  text-align: center;
+  color: white;
+  padding-bottom: 10px;
+}
+
+.lastest-fund header {
+  background-color: rgb(254, 242, 240);
+}
 
 /*latest details area*/
 .latest-head {
@@ -147,7 +390,6 @@ main {
   text-decoration: line-through;
   font-size: 12px;
   color: #808080;
-
 }
 
 /*footer area*/
