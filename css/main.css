@@ -485,6 +485,11 @@ a .lastest-fund .p-price {
 .latest-grid {
   display: none;
 }
+
+.latest-news-grid {
+  display: none;
+}
+
 .latest-head {
   display: flex;
   justify-content: space-between;
@@ -891,26 +896,26 @@ a .lastest-fund .p-price {
     padding-left: 20px;
     padding-right: 20px;
   }
-  
+
   .latest-head .deals {
     font-size: 20px;
   }
-  
+
   .latest-head span a {
     color: #f42;
     text-decoration: none;
   }
-  
+
   .latest-head .see-more {
     padding-top: 40px;
   }
-  
+
   .latest-grid {
     display: grid;
     grid-template-rows: 2;
     grid-template-columns: 4;
   }
-  
+
   .latest-items-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -919,7 +924,7 @@ a .lastest-fund .p-price {
     padding-left: 5px;
     padding-bottom: 20px;
   }
-  
+
   .latest-grid img {
     max-width: 161px;
     max-height: 141px;
@@ -929,14 +934,14 @@ a .lastest-fund .p-price {
   .latest-desc {
     max-width: 161px;
   }
-  
+
   .latest-items-grid .child {
     font-weight: 600;
     font-size: 15px;
     padding-right: 15px;
     padding-left: 15px;
   }
-  
+
   .latest-items-grid .child .price {
     text-decoration: line-through;
     font-size: 12px;
@@ -944,63 +949,66 @@ a .lastest-fund .p-price {
   }
 
   /*latest news amendments*/
-  
-    .latest-head {
-      display: flex;
-      justify-content: space-between;
-      padding-left: 20px;
-      padding-right: 20px;
-    }
-    
-    .latest-head .deals {
-      font-size: 20px;
-    }
-    
-    .latest-head span a {
-      color: #f42;
-      text-decoration: none;
-    }
-    
-    .latest-head .see-more {
-      padding-top: 40px;
-    }
-    
-    .latest-news-grid {
-      display: grid;
-      grid-template-rows: 2;
-      grid-template-columns: 4;
-    }
-    
-    .latest-news-items-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-      height: auto;
-      padding-left: 5px;
-      padding-bottom: 20px;
-    }
-    
-    .latest-news-grid img {
-      width: 231px;
-      height: 115px;
-      padding-bottom: 20px;
-    }
-  
-    .latest-desc {
-      max-width: 231px;
-    }
-    
-    .latest-news-items-grid .child {
-      font-weight: 600;
-      font-size: 15px;
-      padding-right: 15px;
-      padding-left: 15px;
-    }
-    
-    .latest-news-items-grid .child .price {
-      text-decoration: line-through;
-      font-size: 12px;
-      color: #808080;
-    }
+  .latest {
+    display: none;
+  }
+
+  .latest-head {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .latest-head .deals {
+    font-size: 20px;
+  }
+
+  .latest-head span a {
+    color: #f42;
+    text-decoration: none;
+  }
+
+  .latest-head .see-more {
+    padding-top: 40px;
+  }
+
+  .latest-news-grid {
+    display: grid;
+    grid-template-rows: 2;
+    grid-template-columns: 4;
+  }
+
+  .latest-news-items-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: auto;
+    padding-left: 5px;
+    padding-bottom: 20px;
+  }
+
+  .latest-news-grid img {
+    width: 231px;
+    height: 115px;
+    padding-bottom: 20px;
+  }
+
+  .latest-desc {
+    max-width: 231px;
+  }
+
+  .latest-news-items-grid .child {
+    font-weight: 600;
+    font-size: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .latest-news-items-grid .child .price {
+    text-decoration: line-through;
+    font-size: 12px;
+    color: #808080;
+  }
 }
 
 @media only screen and (min-width: 600px) {
