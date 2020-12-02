@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'ARS Maquette Pro';
-  src: url('ARSMaquettePro-BlackItalic.eot');
+  src:url('ARSMaquettePro-BlackItalic.eot');
   src:
     local('ARS Maquette Pro Black Italic'),
     local('ARSMaquettePro-BlackItalic'),
@@ -14,7 +14,7 @@
 
 @font-face {
   font-family: 'ARS Maquette Pro';
-  src: url('ARSMaquettePro-Regular.eot');
+  src:url('ARSMaquettePro-Regular.eot');
   src:
     local('ARS Maquette Pro Regular'),
     local('ARSMaquettePro-Regular'),
@@ -28,7 +28,7 @@
 
 @font-face {
   font-family: 'ARS Maquette Pro';
-  src: url('ARSMaquettePro-LightItalic.eot');
+  src:url('ARSMaquettePro-LightItalic.eot');
   src:
     local('ARS Maquette Pro Light Italic'),
     local('ARSMaquettePro-LightItalic'),
@@ -42,8 +42,8 @@
 
 @font-face {
   font-family: 'ARS Maquette Pro';
-  src: url('ARSMaquettePro-Bold.eot');
-  src: 
+  src:url('ARSMaquettePro-Bold.eot');
+  src:
     local('ARS Maquette Pro Bold'),
     local('ARSMaquettePro-Bold'),
     url('ARSMaquettePro-Bold.eot?#iefix') format('embedded-opentype'),
@@ -56,8 +56,8 @@
 
 @font-face {
   font-family: 'ARS Maquette Pro';
-  src: url('ARSMaquettePro-Italic.eot');
-  src: 
+  src:url('ARSMaquettePro-Italic.eot');
+  src:
     local('ARS Maquette Pro Italic'),
     local('ARSMaquettePro-Italic'),
     url('ARSMaquettePro-Italic.eot?#iefix') format('embedded-opentype'),
@@ -70,8 +70,8 @@
 
 @font-face {
   font-family: 'ARS Maquette Pro';
-  src: url('ARSMaquettePro-MediumItalic.eot');
-  src: 
+  src:url('ARSMaquettePro-MediumItalic.eot');
+  src:
     local('ARS Maquette Pro Medium Italic'),
     local('ARSMaquettePro-MediumItalic'),
     url('ARSMaquettePro-MediumItalic.eot?#iefix') format('embedded-opentype'),
@@ -84,8 +84,8 @@
 
 @font-face {
   font-family: 'ARS Maquette Pro';
-  src: url('ARSMaquettePro-Medium.eot');
-  src: 
+  src:url('ARSMaquettePro-Medium.eot');
+  src:
     local('ARS Maquette Pro Medium'),
     local('ARSMaquettePro-Medium'),
     url('ARSMaquettePro-Medium.eot?#iefix') format('embedded-opentype'),
@@ -98,8 +98,8 @@
 
 @font-face {
   font-family: 'ARS Maquette Pro';
-  src: url('ARSMaquettePro-Light.eot');
-  src: 
+  src:url('ARSMaquettePro-Light.eot');
+  src:
     local('ARS Maquette Pro Light'),
     local('ARSMaquettePro-Light'),
     url('ARSMaquettePro-Light.eot?#iefix') format('embedded-opentype'),
@@ -112,8 +112,8 @@
 
 @font-face {
   font-family: 'ARS Maquette Pro';
-  src: url('ARSMaquettePro-BoldItalic.eot');
-  src: 
+  src:url('ARSMaquettePro-BoldItalic.eot');
+  src:
     local('ARS Maquette Pro Bold Italic'),
     local('ARSMaquettePro-BoldItalic'),
     url('ARSMaquettePro-BoldItalic.eot?#iefix') format('embedded-opentype'),
@@ -126,7 +126,7 @@
 
 @font-face {
   font-family: 'ARS Maquette Pro';
-  src: url('ARSMaquettePro-Black.eot');
+  src:url('ARSMaquettePro-Black.eot');
   src:
     local('ARS Maquette Pro Black'),
     local('ARSMaquettePro-Black'),
