@@ -44,6 +44,7 @@ body {
   padding: 16px;
   width: 48px;
 }
+
 .icon2 {
   height: 48px;
   padding: 16px;
@@ -123,12 +124,10 @@ main {
   font-size: 14px;
   color: #000000;
   padding-bottom: 10px;
-  background: linear-gradient(
-    180deg,
-    rgba(10, 10, 10, 1) 0%,
-    rgba(83, 75, 75, 1) 45%,
-    rgba(255, 255, 255, 1) 100%
-  );
+  background: linear-gradient(180deg,
+      rgba(10, 10, 10, 1) 0%,
+      rgba(83, 75, 75, 1) 45%,
+      rgba(255, 255, 255, 1) 100%);
 }
 
 .flex-a .date {
@@ -165,12 +164,10 @@ main {
   font-size: 14px;
   color: #000000;
   padding-bottom: 10px;
-  background: linear-gradient(
-    180deg,
-    rgba(10, 10, 10, 1) 0%,
-    rgba(83, 75, 75, 1) 45%,
-    rgba(255, 255, 255, 1) 100%
-  );
+  background: linear-gradient(180deg,
+      rgba(10, 10, 10, 1) 0%,
+      rgba(83, 75, 75, 1) 45%,
+      rgba(255, 255, 255, 1) 100%);
 }
 
 .flex-b .date {
@@ -207,12 +204,10 @@ main {
   font-size: 14px;
   color: #000000;
   padding-bottom: 10px;
-  background: linear-gradient(
-    180deg,
-    rgba(10, 10, 10, 1) 0%,
-    rgba(83, 75, 75, 1) 45%,
-    rgba(255, 255, 255, 1) 100%
-  );
+  background: linear-gradient(180deg,
+      rgba(10, 10, 10, 1) 0%,
+      rgba(83, 75, 75, 1) 45%,
+      rgba(255, 255, 255, 1) 100%);
 }
 
 .flex-c .date {
@@ -243,6 +238,7 @@ main {
   margin: 0;
   -webkit-text-stroke: 0.5px #000000;
 }
+
 /* latest funding starts here */
 .latest-main {
   width: 100%;
@@ -323,9 +319,11 @@ a .lastest-fund .p-price {
 .my-ul {
   border-bottom: 1px solid orange;
 }
+
 .lastest-fund ul {
   list-style: none;
 }
+
 .lastest-fund .fund-details {
   display: flex;
   justify-content: flex-start;
@@ -336,182 +334,148 @@ a .lastest-fund .p-price {
   background-color: rgb(254, 242, 240);
 }
 
-@media only screen and (min-width: 600px) {
-  .latest-main {
-    display: flex;
-    flex-direction: row;
-  }
 
-  .lastest-fund {
-    position: relative;
-    margin-left: 15px;
-    margin-right: 15px;
-    width: 280px;
-    background-color: rgb(255, 250, 248);
-    padding-bottom: 15px;
-  }
-
-  .fund-nav ul a {
-    text-decoration: none;
-    color: #ff4500;
-    padding-left: 10px;
-    font-size: 18px;
-  }
-
-  .fund-nav ul .header-li {
-    font-size: 40px;
-    flex: 1;
-  }
-
-  .lastest-fund {
-    position: relative;
-    margin-left: 20px;
-  }
-
-  .hidden-li {
-    display: flex;
-  }
-  #header-li {
-    font-size: 80px;
-    flex: 1;
-  }
-}
 
 /* latest funding ends here */
 
-/*Info Containers*/
-.info-boxes-area {
-  display: flex;
-  flex-direction: column;
-  padding-left: 10px;
-  padding-right: 15px;
-  padding-bottom: 30px;
-  position: relative;
-}
-
-.info-container h2 {
-  color: #f42;
-  text-decoration: none;
-}
-
-.info-title a {
-  color: #f42;
-  text-decoration: none;
-}
-
-.info-container {
-  position: relative;
-  font-size: 14px;
-  color: #000000;
-  padding-bottom: 10px;
-}
-
-.info-box .info-desc {
-  position: absolute;
-  z-index: 100;
-  left: 10px;
-  top: 250px;
-  margin: 0;
-}
-
-.info-box a {
-  text-decoration: none;
-  color: #ffffff;
-}
-
-.info-box h2 {
-  position: absolute;
-  z-index: 100;
-  font-size: 22px;
-  font-weight: bold;
-  left: 10px;
-  top: 140px;
-  margin: 0;
-  padding-right: 10px;
-}
-
-.info-center {
-  display: flex;
-  justify-content: space-between;
-  height: 96px;
-  background-color: rgba(255, 68, 34, 0.06);
-  color: #ff4500;
-}
-
-.info-center a {
-  text-decoration: none;
-  color: #ff4500;
-}
-
-.info-left {
-  text-align: left;
-  width: 238px;
-  margin: 0;
-  padding-right: 30px;
-  padding-left: 5px;
-  font-weight: 700;
-}
-
-.info-center h5 {
-  font-weight: normal;
-  font-size: 14px;
-  margin: 0;
-  padding-top: 10px;
-}
-
-.info-back-image {
-  background-size: cover;
-  overflow: hidden;
-  opacity: 0.5;
-  background: linear-gradient(
-    180deg,
-    rgba(10, 10, 10, 1) 0%,
-    rgba(83, 75, 75, 1) 45%,
-    rgba(255, 255, 255, 1) 100%
-  );
-}
-
-.info-r-image {
-  background-size: cover;
-  overflow: hidden;
-  height: 96px;
-  width: 96px;
-}
-
-.info-bottom {
-  display: flex;
-  justify-content: space-between;
-}
-
-.info-links a {
-  text-decoration: none;
-  color: #000000;
-  font-size: 14px;
-  font-weight: normal;
-  line-height: 16pt;
-  font-family: inherit;
-}
-
-.info-links li {
-  height: 51px;
-  list-style: none;
-  text-align: justify;
-}
-
-.info-links ul {
-  padding-left: 5px;
-}
-
-.info-links li::before {
-  content: "• ";
-  color: #ff4500;
-}
+  /*Info Containers*/
+  .info-boxes-area {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-bottom: 30px;
+    position: relative;
+  }
+  
+  .info-container h2 {
+    color: #f42;
+    text-decoration: none;
+  }
+  
+  .info-title a {
+    color: #f42;
+    text-decoration: none;
+  }
+  
+  .info-container {
+    position: relative;
+    font-size: 14px;
+    color: #000000;
+    padding-bottom: 10px;
+  }
+  
+  .info-box .info-desc {
+    position: absolute;
+    z-index: 100;
+    left: 10px;
+    top: 250px;
+    margin: 0;
+  }
+  
+  .info-box a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  .info-box h2 {
+    position: absolute;
+    z-index: 100;
+    font-size: 22px;
+    font-weight: bold;
+    left: 10px;
+    top: 140px;
+    margin: 0;
+    padding-right: 10px;
+  }
+  
+  .info-center {
+    display: flex;
+    justify-content: space-between;
+    height: 96px;
+    background-color: rgba(255, 68, 34, .06);
+    color: #ff4500;
+  }
+  
+  .info-center a {
+    text-decoration: none;
+    color: #ff4500;
+  }
+  
+  .info-left {
+    text-align: left;
+    width: 238px;
+    margin: 0;
+    padding-right: 30px;
+    padding-left: 5px;
+    font-weight: 700;
+  }
+  
+  .info-center h5 {
+    font-weight: normal;
+    font-size: 14px;
+    margin: 0;
+    padding-top: 10px;
+  }
+  
+  .info-back-image {
+    background-size: cover;
+    overflow: hidden;
+    opacity: 0.5;
+    background: linear-gradient(180deg,
+        rgba(10, 10, 10, 1) 0%,
+        rgba(83, 75, 75, 1) 45%,
+        rgba(255, 255, 255, 1) 100%);
+  }
+  
+  .info-r-image {
+    background-size: cover;
+    overflow: hidden;
+    height: 96px;
+    width: 96px;
+  }
+  
+  .info-bottom {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .info-links a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 16pt;
+    font-family: inherit;
+  }
+  
+  .info-links li {
+    height: 51px;
+    list-style: none;
+    text-align: justify;
+  }
+  
+  .info-links ul {
+    padding-left: 5px;
+  }
+  
+  .info-links li::before {
+    content: "• ";
+    color: #ff4500;
+  }
+  
+  /*Info Container Grid*/
+  
+  .info-boxes-grid {
+    display: none;
+  }
 
 /*latest news additions*/
 .news-color {
   font-size: 10px;
   color: #808080;
 }
+
 .news-color2 {
   font-size: 10px;
   color: #808080;
@@ -538,15 +502,19 @@ a .lastest-fund .p-price {
 .latest-head .see-more {
   padding-top: 40px;
 }
+
 .latest {
-  position: relative;
+  /*position: relative;
   display: flex;
-  flex-direction: column;
+  flex-direction: column;*/
+  display: grid;
+  grid-template-rows: 2;
+  grid-template-columns: 2;
 }
 
 .latest-items {
   display: grid;
-  grid-template-columns: 1fr 3fr;
+  grid-template-columns: 75px auto;
   /*grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));*/
   height: auto;
   padding-left: 15px;
@@ -561,6 +529,8 @@ a .lastest-fund .p-price {
 .latest-items .child {
   font-weight: 600;
   font-size: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 .latest-items .child .price {
@@ -618,11 +588,156 @@ a .lastest-fund .p-price {
 
 /*media settings medium and up*/
 @media (min-width: 600px) {
+  /*Info Container Grid*/
+  /*turn of mobile info boxes*/
+  .info-boxes-area {
+    display: none;
+  }
+
+  .info-boxes-grid {
+    padding-left: 10px;
+    padding-right: 15px;
+    display: grid;
+    grid-template-areas: '1fr 1fr 1fr';
+    grid-gap: 10px;
+    padding-bottom: 40px;
+  }
+
+  .info-boxes-grid {
+    padding-left: 10px;
+    padding-right: 15px;
+    display: grid;
+    grid-template-areas: '1fr 1fr 1fr';
+    grid-gap: 10px;
+    padding-bottom: 40px;
+  }
+
+  .info-container-grid h2 {
+    color: #f42;
+    text-decoration: none;
+  }
+
+  .info-title a {
+    color: #f42;
+    text-decoration: none;
+  }
+
+  .info-container-grid {
+    position: relative;
+    font-size: 14px;
+    color: #000000;
+    padding-bottom: 10px;
+  }
+
+  .info-box-grid .info-desc {
+    position: absolute;
+    z-index: 100;
+    left: 10px;
+    top: 250px;
+    margin: 0;
+  }
+
+  .info-box-grid a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  .info-box-grid h2 {
+    position: absolute;
+    z-index: 100;
+    font-size: 22px;
+    font-weight: bold;
+    left: 10px;
+    top: 140px;
+    margin: 0;
+    padding-right: 10px;
+  }
+
+  .info-center-grid {
+    display: flex;
+    justify-content: space-between;
+    height: 96px;
+    background-color: rgba(255, 68, 34, .06);
+    color: #ff4500;
+  }
+
+  .info-center-grid a {
+    text-decoration: none;
+    color: #ff4500;
+  }
+
+  .info-left {
+    text-align: left;
+    width: 238px;
+    margin: 0;
+    padding-right: 30px;
+    padding-left: 5px;
+    font-weight: 700;
+  }
+
+  .info-center-grid h5 {
+    font-weight: normal;
+    font-size: 14px;
+    margin: 0;
+    padding-top: 10px;
+  }
+
+  .info-back-image {
+    background-size: cover;
+    overflow: hidden;
+    opacity: 0.5;
+    background: linear-gradient(180deg,
+        rgba(10, 10, 10, 1) 0%,
+        rgba(83, 75, 75, 1) 45%,
+        rgba(255, 255, 255, 1) 100%);
+  }
+
+  .info-r-image {
+    background-size: cover;
+    overflow: hidden;
+    height: 96px;
+    width: 96px;
+  }
+
+  .info-bottom {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .info-links a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 16pt;
+    font-family: inherit;
+  }
+
+  .info-links li {
+    height: 51px;
+    list-style: none;
+    text-align: justify;
+  }
+
+  .info-links ul {
+    padding-left: 5px;
+  }
+
+  .info-links li::before {
+    content: "• ";
+    color: #ff4500;
+  }
+
+  /*turn off mobile cover*/
+  .flex-container {
+    display: none;
+  }
+
   .grid-container {
     padding-left: 10px;
     padding-right: 15px;
     display: grid;
-    grid-template-areas: "first first second" "first first third";
+    grid-template-areas: "first first second""first first third";
     grid-gap: 10px;
     padding-bottom: 40px;
   }
@@ -630,12 +745,10 @@ a .lastest-fund .p-price {
   .grid-a {
     margin: 0;
     position: relative;
-    background-image: linear-gradient(
-      0deg,
-      rgba(10, 10, 10, 1) 0%,
-      rgba(83, 75, 75, 1) 64%,
-      rgba(169, 172, 172, 1) 100%
-    );
+    background-image: linear-gradient(0deg,
+        rgba(10, 10, 10, 1) 0%,
+        rgba(83, 75, 75, 1) 64%,
+        rgba(169, 172, 172, 1) 100%);
     font-size: 12px;
     color: #adabab;
   }
@@ -647,12 +760,10 @@ a .lastest-fund .p-price {
   .grid-b {
     grid-area: second;
     position: relative;
-    background-image: linear-gradient(
-      0deg,
-      rgba(10, 10, 10, 1) 0%,
-      rgba(83, 75, 75, 1) 64%,
-      rgba(169, 172, 172, 1) 100%
-    );
+    background-image: linear-gradient(0deg,
+        rgba(10, 10, 10, 1) 0%,
+        rgba(83, 75, 75, 1) 64%,
+        rgba(169, 172, 172, 1) 100%);
     font-size: 12px;
     color: #adabab;
   }
@@ -660,12 +771,10 @@ a .lastest-fund .p-price {
   .grid-c {
     grid-area: third;
     position: relative;
-    background-image: linear-gradient(
-      0deg,
-      rgba(10, 10, 10, 1) 0%,
-      rgba(83, 75, 75, 1) 64%,
-      rgba(169, 172, 172, 1) 100%
-    );
+    background-image: linear-gradient(0deg,
+        rgba(10, 10, 10, 1) 0%,
+        rgba(83, 75, 75, 1) 64%,
+        rgba(169, 172, 172, 1) 100%);
     font-size: 12px;
     color: #adabab;
   }
@@ -767,8 +876,46 @@ a .lastest-fund .p-price {
     opacity: 0.5;
     width: 100%;
   }
+}
 
-  .flex-container {
-    display: none;
+@media only screen and (min-width: 600px) {
+  .latest-main {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .lastest-fund {
+    position: relative;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 280px;
+    background-color: rgb(255, 250, 248);
+    padding-bottom: 15px;
+  }
+
+  .fund-nav ul a {
+    text-decoration: none;
+    color: #ff4500;
+    padding-left: 10px;
+    font-size: 18px;
+  }
+
+  .fund-nav ul .header-li {
+    font-size: 40px;
+    flex: 1;
+  }
+
+  .lastest-fund {
+    position: relative;
+    margin-left: 20px;
+  }
+
+  .hidden-li {
+    display: flex;
+  }
+
+  #header-li {
+    font-size: 80px;
+    flex: 1;
   }
 }
