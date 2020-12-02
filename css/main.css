@@ -373,6 +373,132 @@ main {
 
 /* latest funding ends here */
 
+/*Info Containers*/
+.info-boxes-area {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  padding-right: 15px;
+  padding-bottom: 30px;
+  position: relative;
+}
+
+.info-container h2 {
+  color: #f42;
+  text-decoration: none;
+}
+
+.info-title a {
+  color: #f42;
+  text-decoration: none;
+}
+
+.info-container {
+  position: relative;
+  font-size: 14px;
+  color: #000000;
+  padding-bottom: 10px;
+}
+
+.info-box .info-desc {
+  position: absolute;
+  z-index: 100;
+  left: 10px;
+  top: 250px;
+  margin:0;
+}
+
+.info-box a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.info-box h2 {
+  position: absolute;
+  z-index: 100;
+  font-size: 22px;
+  font-weight: bold;
+  left: 10px;
+  top: 140px;
+  margin:0;
+  padding-right: 10px;
+}
+
+.info-center {
+  display: flex;
+  justify-content: space-between;
+  height: 96px;
+  background-color: rgba(255,68,34,.06);
+  color: #ff4500;
+}
+
+.info-center a {
+  text-decoration: none;
+  color: #ff4500;
+}
+
+.info-left {
+  text-align: left;
+  width: 238px;
+  margin: 0;
+  padding-right: 30px;
+  padding-left: 5px;
+  font-weight: 700;
+}
+
+.info-center h5 {
+  font-weight: normal;
+  font-size: 14px;
+  margin: 0;
+  padding-top: 10px;
+}
+
+.info-back-image {
+  background-size: cover;
+  overflow: hidden;
+  opacity: 0.5;
+  background: linear-gradient(
+    180deg, 
+    rgba(10,10,10,1) 0%, 
+    rgba(83,75,75,1) 45%, 
+    rgba(255,255,255,1) 100%);
+}
+
+.info-r-image {
+  background-size: cover;
+  overflow: hidden;
+  height: 96px;
+  width: 96px;
+}
+
+.info-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-links a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 16pt;
+  font-family: inherit;
+}
+
+.info-links li{
+  height: 51px;
+  list-style: none;
+  text-align: justify;
+}
+
+.info-links ul {
+  padding-left: 5px;
+}
+
+.info-links li::before {
+  content: "• ";
+  color: #ff4500; 
+}
 
 /*latest news additions*/
 .news-color {
