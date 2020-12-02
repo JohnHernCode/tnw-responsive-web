@@ -1,7 +1,8 @@
 @font-face {
   font-family: 'ARS Maquette Pro';
   src: url('ARSMaquettePro-BlackItalic.eot');
-  src: local('ARS Maquette Pro Black Italic'),
+  src:
+    local('ARS Maquette Pro Black Italic'),
     local('ARSMaquettePro-BlackItalic'),
     url('ARSMaquettePro-BlackItalic.eot?#iefix') format('embedded-opentype'),
     url('ARSMaquettePro-BlackItalic.woff2') format('woff2'),
