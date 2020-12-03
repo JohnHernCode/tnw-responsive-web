@@ -13,22 +13,23 @@ Built With
     HTML
     CSS
 
+Demo:
 
+![DEMO LINK](https://johnhernandez-code.github.io/tnw-responsive-web)
 
 👤 Author1
 
-    GitHub: @johnhernandez-code
+    GitHub: ![@johnhernandez-code](https://github.com/JohnHernandez-code)
 
 👤 Author2
 
-    GitHub: @Nasa28
+    GitHub: ![@Nasa28](https://github.com/Nasa28)
 
 
 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the issues page.
 Show your support
 
 Give a ⭐️ if you like this project!
