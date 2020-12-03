@@ -17,13 +17,13 @@ Demo:
 
 ![DEMO LINK](https://johnhernandez-code.github.io/tnw-responsive-web)
 
-👤 Author1
+👤 Author1 (Github)
 
-    GitHub: ![@johnhernandez-code](https://github.com/JohnHernandez-code)
+![johnhernandez-code](https://github.com/JohnHernandez-code)
 
-👤 Author2
+👤 Author2 (Github)
 
-    GitHub: ![@Nasa28](https://github.com/Nasa28)
+![Nasa28](https://github.com/Nasa28)
 
 
 🤝 Contributing
