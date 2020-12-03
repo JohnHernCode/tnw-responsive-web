@@ -3,6 +3,7 @@ body {
   font-size: 14px;
   margin: 0;
   padding: 0 0;
+  height: 100vh;
 }
 
 .nav-bar {
@@ -505,7 +506,7 @@ a .lastest-fund .p-price {
   font-size: 20px;
 }
 
-.latest-head span a {
+.latest-head a {
   color: #f42;
   text-decoration: none;
 }
@@ -597,7 +598,7 @@ a .lastest-fund .p-price {
 }
 
 /* media settings medium and up */
-@media (min-width: 600px) {
+@media (min-width: 992px) {
   /* Info Container Grid */
 
   /* turn of mobile info boxes */
@@ -743,30 +744,38 @@ a .lastest-fund .p-price {
     grid-template-areas: "first first second""first first third";
     grid-gap: 10px;
     padding-bottom: 40px;
+    height: 450px;
   }
 
   .grid-a {
     margin: 0;
     position: relative;
-    background-image: linear-gradient(0deg,
-        rgba(10, 10, 10, 1) 0%,
-        rgba(83, 75, 75, 1) 64%,
-        rgba(169, 172, 172, 1) 100%);
+    background-image: 
+    linear-gradient(
+    to bottom,
+    rgba(0,0,0,0.7) 0%,
+    rgba(0,0,0,0.7) 100%),
+    url(../images/carstuff.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     font-size: 12px;
     color: #adabab;
-  }
-
-  .grid-a {
     grid-area: first;
   }
 
   .grid-b {
     grid-area: second;
     position: relative;
-    background-image: linear-gradient(0deg,
-        rgba(10, 10, 10, 1) 0%,
-        rgba(83, 75, 75, 1) 64%,
-        rgba(169, 172, 172, 1) 100%);
+    background-image:
+    linear-gradient(
+    to bottom, 
+    rgba(0,0,0,0.7) 0%,
+    rgba(0,0,0,0.7) 100%),
+    url(../images/carstuff.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     font-size: 12px;
     color: #adabab;
   }
@@ -774,10 +783,15 @@ a .lastest-fund .p-price {
   .grid-c {
     grid-area: third;
     position: relative;
-    background-image: linear-gradient(0deg,
-        rgba(10, 10, 10, 1) 0%,
-        rgba(83, 75, 75, 1) 64%,
-        rgba(169, 172, 172, 1) 100%);
+    background-image: 
+    linear-gradient(
+    to bottom,
+    rgba(0,0,0,0.7) 0%,
+    rgba(0,0,0,0.7) 100%),
+    url(../images/carstuff.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     font-size: 12px;
     color: #adabab;
   }
@@ -807,10 +821,10 @@ a .lastest-fund .p-price {
     grid-column: 1;
   }
 
-  .back-image img {
+  /* .back-image img {
     opacity: 0.5;
     width: 100%;
-  }
+  } */
 
   .grid-a .date {
     display: none;
@@ -1007,7 +1021,7 @@ a .lastest-fund .p-price {
 }
 
 @media only screen and (min-width: 600px) {
-  .latest-main {
+  .funding-main {
     display: flex;
     flex-direction: row;
   }
