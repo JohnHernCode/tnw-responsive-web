@@ -72,8 +72,6 @@ body {
   margin-top: 0;
 }
 
-
-
 .hover-box a {
   text-decoration: none;
   color: white;
@@ -126,10 +124,11 @@ main {
   font-size: 14px;
   color: #000;
   padding-bottom: 10px;
-  background: linear-gradient(180deg,
-      rgba(10, 10, 10, 1) 0%,
-      rgba(83, 75, 75, 1) 45%,
-      rgba(255, 255, 255, 1) 100%);
+  background:
+    linear-gradient(180deg,
+    rgba(10, 10, 10, 1) 0%,
+    rgba(83, 75, 75, 1) 45%,
+    rgba(255, 255, 255, 1) 100%);
 }
 
 .flex-a .date {
@@ -166,10 +165,11 @@ main {
   font-size: 14px;
   color: #000;
   padding-bottom: 10px;
-  background: linear-gradient(180deg,
-      rgba(10, 10, 10, 1) 0%,
-      rgba(83, 75, 75, 1) 45%,
-      rgba(255, 255, 255, 1) 100%);
+  background:
+    linear-gradient(180deg,
+    rgba(10, 10, 10, 1) 0%,
+    rgba(83, 75, 75, 1) 45%,
+    rgba(255, 255, 255, 1) 100%);
 }
 
 .flex-b .date {
@@ -206,10 +206,11 @@ main {
   font-size: 14px;
   color: #000;
   padding-bottom: 10px;
-  background: linear-gradient(180deg,
-      rgba(10, 10, 10, 1) 0%,
-      rgba(83, 75, 75, 1) 45%,
-      rgba(255, 255, 255, 1) 100%);
+  background:
+    linear-gradient(180deg,
+    rgba(10, 10, 10, 1) 0%,
+    rgba(83, 75, 75, 1) 45%,
+    rgba(255, 255, 255, 1) 100%);
 }
 
 .flex-c .date {
@@ -251,6 +252,25 @@ main {
   align-items: center;
 }
 
+.info-title a {
+  color: #f42;
+  text-decoration: none;
+}
+
+.info-box a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.info-links a {
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 16pt;
+  font-family: inherit;
+}
+
 .fund-nav ul {
   display: flex;
   justify-content: space-between;
@@ -263,6 +283,22 @@ main {
   font-size: 30px;
   flex: 1;
   color: #ff4500;
+}
+
+.latest-main a {
+  text-decoration: none;
+  color: black;
+}
+
+.info-center a {
+  text-decoration: none;
+  color: #ff4500;
+}
+
+.info-links li {
+  height: 51px;
+  list-style: none;
+  text-align: justify;
 }
 
 .fund-nav ul a {
@@ -290,7 +326,6 @@ main {
 }
 
 .lastest-fund h4 {
-  color: white;
   margin-top: 10px;
   padding-top: 10px;
   background-color: red;
@@ -312,11 +347,6 @@ a .lastest-fund .p-price {
   padding-bottom: 20px;
 }
 
-.latest-main a {
-  text-decoration: none;
-  color: black;
-}
-
 .my-ul {
   border-bottom: 1px solid orange;
 }
@@ -328,7 +358,7 @@ a .lastest-fund .p-price {
 .lastest-fund .fund-details {
   display: flex;
   justify-content: flex-start;
-  margin-left: 0px;
+  margin-left: 0;
 }
 
 .lastest-fund header {
@@ -353,11 +383,6 @@ a .lastest-fund .p-price {
   text-decoration: none;
 }
 
-.info-title a {
-  color: #f42;
-  text-decoration: none;
-}
-
 .info-container {
   position: relative;
   font-size: 14px;
@@ -371,11 +396,6 @@ a .lastest-fund .p-price {
   left: 10px;
   top: 250px;
   margin: 0;
-}
-
-.info-box a {
-  text-decoration: none;
-  color: #fff;
 }
 
 .info-box h2 {
@@ -393,12 +413,7 @@ a .lastest-fund .p-price {
   display: flex;
   justify-content: space-between;
   height: 96px;
-  background-color: rgba(255, 68, 34, .06);
-  color: #ff4500;
-}
-
-.info-center a {
-  text-decoration: none;
+  background-color: rgba(255, 68, 34, 0.06);
   color: #ff4500;
 }
 
@@ -422,10 +437,11 @@ a .lastest-fund .p-price {
   background-size: cover;
   overflow: hidden;
   opacity: 0.5;
-  background: linear-gradient(180deg,
-      rgba(10, 10, 10, 1) 0%,
-      rgba(83, 75, 75, 1) 45%,
-      rgba(255, 255, 255, 1) 100%);
+  background-image:
+    linear-gradient(180deg,
+    rgba(10, 10, 10, 1) 0%,
+    rgba(83, 75, 75, 1) 45%,
+    rgba(255, 255, 255, 1) 100%);
 }
 
 .info-r-image {
@@ -438,21 +454,6 @@ a .lastest-fund .p-price {
 .info-bottom {
   display: flex;
   justify-content: space-between;
-}
-
-.info-links a {
-  text-decoration: none;
-  color: #000;
-  font-size: 14px;
-  font-weight: normal;
-  line-height: 16pt;
-  font-family: inherit;
-}
-
-.info-links li {
-  height: 51px;
-  list-style: none;
-  text-align: justify;
 }
 
 .info-links ul {
@@ -483,6 +484,7 @@ a .lastest-fund .p-price {
 }
 
 /* latest details area */
+
 /* Turn off Extended Latest */
 .latest-grid {
   display: none;
@@ -517,14 +519,13 @@ a .lastest-fund .p-price {
   display: flex;
   flex-direction: column; */
   display: grid;
-  grid-template-rows: 2;
-  grid-template-columns: 2;
+  /*grid-template-rows: 2;
+  grid-template-columns: 2;*/
 }
 
 .latest-items {
   display: grid;
   grid-template-columns: 75px auto;
-  /* grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); */
   height: auto;
   padding-left: 15px;
 }
@@ -597,20 +598,11 @@ a .lastest-fund .p-price {
 
 /* media settings medium and up */
 @media (min-width: 600px) {
-
   /* Info Container Grid */
+
   /* turn of mobile info boxes */
   .info-boxes-area {
     display: none;
-  }
-
-  .info-boxes-grid {
-    padding-left: 10px;
-    padding-right: 15px;
-    display: grid;
-    grid-template-areas: '1fr 1fr 1fr';
-    grid-gap: 10px;
-    padding-bottom: 40px;
   }
 
   .info-boxes-grid {
@@ -696,10 +688,11 @@ a .lastest-fund .p-price {
     background-size: cover;
     overflow: hidden;
     opacity: 0.5;
-    background: linear-gradient(180deg,
-        rgba(10, 10, 10, 1) 0%,
-        rgba(83, 75, 75, 1) 45%,
-        rgba(255, 255, 255, 1) 100%);
+    background-image:
+      linear-gradient(180deg,
+      rgba(10, 10, 10, 1) 0%,
+      rgba(83, 75, 75, 1) 45%,
+      rgba(255, 255, 255, 1) 100%);
   }
 
   .info-r-image {
@@ -755,25 +748,24 @@ a .lastest-fund .p-price {
   .grid-a {
     margin: 0;
     position: relative;
-    background-image: linear-gradient(0deg,
-        rgba(10, 10, 10, 1) 0%,
-        rgba(83, 75, 75, 1) 64%,
-        rgba(169, 172, 172, 1) 100%);
+    background-image:
+      linear-gradient(0deg,
+      rgba(10, 10, 10, 1) 0%,
+      rgba(83, 75, 75, 1) 64%,
+      rgba(169, 172, 172, 1) 100%);
     font-size: 12px;
     color: #adabab;
-  }
-
-  .grid-a {
     grid-area: first;
   }
 
   .grid-b {
     grid-area: second;
     position: relative;
-    background-image: linear-gradient(0deg,
-        rgba(10, 10, 10, 1) 0%,
-        rgba(83, 75, 75, 1) 64%,
-        rgba(169, 172, 172, 1) 100%);
+    background-image:
+      linear-gradient(0deg,
+      rgba(10, 10, 10, 1) 0%,
+      rgba(83, 75, 75, 1) 64%,
+      rgba(169, 172, 172, 1) 100%);
     font-size: 12px;
     color: #adabab;
   }
@@ -781,10 +773,11 @@ a .lastest-fund .p-price {
   .grid-c {
     grid-area: third;
     position: relative;
-    background-image: linear-gradient(0deg,
-        rgba(10, 10, 10, 1) 0%,
-        rgba(83, 75, 75, 1) 64%,
-        rgba(169, 172, 172, 1) 100%);
+    background-image:
+      linear-gradient(0deg,
+      rgba(10, 10, 10, 1) 0%,
+      rgba(83, 75, 75, 1) 64%,
+      rgba(169, 172, 172, 1) 100%);
     font-size: 12px;
     color: #adabab;
   }
@@ -882,11 +875,6 @@ a .lastest-fund .p-price {
     grid-column: 1;
   }
 
-  .back-image img {
-    opacity: 0.5;
-    width: 100%;
-  }
-
   /* Turn off Mobile Latest */
   .latest {
     display: none;
@@ -914,14 +902,11 @@ a .lastest-fund .p-price {
 
   .latest-grid {
     display: grid;
-    grid-template-rows: 2;
-    grid-template-columns: 4;
   }
 
   .latest-items-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    /* grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); */
     height: auto;
     padding-left: 5px;
     padding-bottom: 20px;
@@ -977,8 +962,6 @@ a .lastest-fund .p-price {
 
   .latest-news-grid {
     display: grid;
-    grid-template-rows: 2;
-    grid-template-columns: 4;
   }
 
   .latest-news-items-grid {
