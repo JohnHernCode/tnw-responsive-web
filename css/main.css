@@ -252,25 +252,6 @@ main {
   align-items: center;
 }
 
-.info-title a {
-  color: #f42;
-  text-decoration: none;
-}
-
-.info-box a {
-  text-decoration: none;
-  color: #fff;
-}
-
-.info-links a {
-  text-decoration: none;
-  color: #000;
-  font-size: 14px;
-  font-weight: normal;
-  line-height: 16pt;
-  font-family: inherit;
-}
-
 .fund-nav ul {
   display: flex;
   justify-content: space-between;
@@ -376,6 +357,25 @@ a .lastest-fund .p-price {
   padding-right: 15px;
   padding-bottom: 30px;
   position: relative;
+}
+
+.info-title a {
+  color: #f42;
+  text-decoration: none;
+}
+
+.info-box a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.info-links a {
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 16pt;
+  font-family: inherit;
 }
 
 .info-container h2 {
@@ -748,24 +748,25 @@ a .lastest-fund .p-price {
   .grid-a {
     margin: 0;
     position: relative;
-    background-image:
-      linear-gradient(0deg,
-      rgba(10, 10, 10, 1) 0%,
-      rgba(83, 75, 75, 1) 64%,
-      rgba(169, 172, 172, 1) 100%);
+    background-image: linear-gradient(0deg,
+        rgba(10, 10, 10, 1) 0%,
+        rgba(83, 75, 75, 1) 64%,
+        rgba(169, 172, 172, 1) 100%);
     font-size: 12px;
     color: #adabab;
+  }
+
+  .grid-a {
     grid-area: first;
   }
 
   .grid-b {
     grid-area: second;
     position: relative;
-    background-image:
-      linear-gradient(0deg,
-      rgba(10, 10, 10, 1) 0%,
-      rgba(83, 75, 75, 1) 64%,
-      rgba(169, 172, 172, 1) 100%);
+    background-image: linear-gradient(0deg,
+        rgba(10, 10, 10, 1) 0%,
+        rgba(83, 75, 75, 1) 64%,
+        rgba(169, 172, 172, 1) 100%);
     font-size: 12px;
     color: #adabab;
   }
@@ -773,11 +774,10 @@ a .lastest-fund .p-price {
   .grid-c {
     grid-area: third;
     position: relative;
-    background-image:
-      linear-gradient(0deg,
-      rgba(10, 10, 10, 1) 0%,
-      rgba(83, 75, 75, 1) 64%,
-      rgba(169, 172, 172, 1) 100%);
+    background-image: linear-gradient(0deg,
+        rgba(10, 10, 10, 1) 0%,
+        rgba(83, 75, 75, 1) 64%,
+        rgba(169, 172, 172, 1) 100%);
     font-size: 12px;
     color: #adabab;
   }
@@ -875,6 +875,11 @@ a .lastest-fund .p-price {
     grid-column: 1;
   }
 
+  .back-image img {
+    opacity: 0.5;
+    width: 100%;
+  }
+
   /* Turn off Mobile Latest */
   .latest {
     display: none;
@@ -902,11 +907,14 @@ a .lastest-fund .p-price {
 
   .latest-grid {
     display: grid;
+    grid-template-rows: 2;
+    grid-template-columns: 4;
   }
 
   .latest-items-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); */
     height: auto;
     padding-left: 5px;
     padding-bottom: 20px;
@@ -962,6 +970,8 @@ a .lastest-fund .p-price {
 
   .latest-news-grid {
     display: grid;
+    grid-template-rows: 2;
+    grid-template-columns: 4;
   }
 
   .latest-news-items-grid {
