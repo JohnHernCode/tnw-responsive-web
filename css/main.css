@@ -29,6 +29,11 @@ body {
   padding-right: 20px;
 }
 
+
+.main-nav ul a:hover{
+  color:white;
+}
+
 .main-nav ul li:nth-child(6){
   flex:1;
 }
@@ -350,18 +355,21 @@ main {
 
 a .lastest-fund .p-price {
   font-size: 20px;
-  line-height: 0;
+  line-height: 1.5;
   padding-left: 80px;
+  margin-top: 5px;
 }
 
 .p-last {
   padding-left: 80px;
   margin-bottom: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 .my-ul {
   border-bottom: 1px solid orange;
+  margin-bottom: 10px;
+  margin-left: 10px;
 }
 
 .lastest-fund ul {
@@ -371,7 +379,8 @@ a .lastest-fund .p-price {
 .lastest-fund .fund-details {
   display: flex;
   justify-content: flex-start;
-  margin-left: 0;
+  margin-left: 10px;
+  margin-bottom: 10px;
 }
 
 .lastest-fund header {
