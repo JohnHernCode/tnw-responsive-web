@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: "ARS Maquette Pro", Arial, Helvetica, sans-serif;
   font-size: 14px;
@@ -5,6 +11,31 @@ body {
   padding: 0 0;
   height: 100vh;
 }
+
+/* my changes starts here */
+
+.main-nav ul {
+  display: flex;
+  height: 40px;
+  width: 100%;
+  background-color: rgb(19, 19, 19);
+  justify-content: flex-start;
+  align-items: center;
+}
+.main-nav ul a {
+  text-decoration: none;
+  padding-left: 10px;
+  color:rgb(109,109,109);
+  padding-right: 20px;
+}
+
+.main-nav ul li:nth-child(6){
+  flex:1;
+}
+
+
+/* my changes ends here */
+
 
 .nav-bar {
   position: fixed;
