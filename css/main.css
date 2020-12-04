@@ -647,6 +647,25 @@ main {
     font-size: 20px;
   }
 
+  .top-nav a {
+    text-decoration: none;
+    color: rgb(109, 109, 109);
+  }
+
+  .link-second a {
+    text-decoration: none;
+    color: rgb(109, 109, 109);
+  }
+
+  .info-links a {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 16pt;
+    font-family: inherit;
+  }
+
   .latest-head-flex .deals a {
     color: #f42;
     text-decoration: none;
@@ -703,7 +722,7 @@ main {
     margin-left: 20px;
     z-index: 750;
   }
-  
+
   /* latest deals 768 view */
   .latest-deals-grid1 {
     display: none;
@@ -1021,15 +1040,6 @@ main {
     justify-content: space-between;
   }
 
-  .info-links a {
-    text-decoration: none;
-    color: #000;
-    font-size: 14px;
-    font-weight: normal;
-    line-height: 16pt;
-    font-family: inherit;
-  }
-
   .info-links li {
     height: 51px;
     list-style: none;
@@ -1088,21 +1098,12 @@ main {
     visibility: visible;
   }
 
-  .link-second a {
-    text-decoration: none;
-    color: rgb(109, 109, 109);
-  }
-
   .link-second .search-link-box {
     float: right;
     opacity: 0.25;
   }
 
-  .top-nav a {
-    text-decoration: none;
-    color: rgb(109, 109, 109);
-  }
-
+  
   .top-nav a:hover {
     color: white;
   }
