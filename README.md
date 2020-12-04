@@ -19,12 +19,11 @@ Replicating [The Next Web website](https://thenextweb.com/)
 
 [Live Demo Link](https://johnhernandez-code.github.io/tnw-responsive-web/)
 
-To get a local copy up and running follow these simple example steps.
+Usage
 
-Download the source code to your local desktop.
-Unzip the folder to a convenient location.
-Open the index.html file with your favorite browser.
-Feel free to have a look at the css and other supporting files.
+git clone https://github.com/JohnHernandez-code/tnw-responsive-web.git
+cd tnw-responsive-web
+open index.html
 
 
 👤 **John Hernandez**
