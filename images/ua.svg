@@ -1,0 +1,15 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+     viewBox="0 0 50 33.5" style="enable-background:new 0 0 50 33.5;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#CC3533;}
+	.st1{fill:#418140;}
+	.st2{fill:#FAFAFA;}
+	.st3{fill:#333333;}
+</style>
+    <g>
+	<polygon style="fill:#CC3533;" points="14.9,11.1 14.9,0 0,0 0,33.5 14.9,33.5 14.9,22.4 	"/>
+        <rect x="14.9" y="0" style="fill:#418140;" width="35.1" height="11.1"/>
+        <rect x="14.9" y="11.1" style="fill:#FAFAFA;" width="35.1" height="11.2"/>
+        <rect x="14.9" y="22.4" style="fill:#333333;" width="35.1" height="11.1"/>
+</g>
+</svg>
