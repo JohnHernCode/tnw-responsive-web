@@ -666,13 +666,6 @@ main {
     font-family: inherit;
   }
 
-  .latest-head-flex .deals a {
-    color: #f42;
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 26px;
-  }
-
   .latest-head-flex .see-more {
     padding-top: 5px;
   }
@@ -996,6 +989,13 @@ main {
   .info-center-grid a {
     text-decoration: none;
     color: #ff4500;
+  }
+
+  .latest-head-flex .deals a {
+    color: #f42;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 26px;
   }
 
   .info-left {
@@ -1569,5 +1569,14 @@ main {
   .fund-grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .info-links ul a {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 16pt;
+    font-family: inherit;
   }
 }
