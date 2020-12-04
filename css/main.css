@@ -814,6 +814,7 @@ main {
       rgba(0, 0, 0, 0.7) 0%,
       rgba(0, 0, 0, 0.7) 100%
       ),
+      url(../images/sper.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -830,6 +831,7 @@ main {
       rgba(0, 0, 0, 0.7) 0%,
       rgba(0, 0, 0, 0.7) 100%
       ),
+      url(../images/sper.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
