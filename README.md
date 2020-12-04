@@ -6,7 +6,7 @@ Building with Responsive Design
 
 
 
-![screenshot](../images/ifr.jpeg)
+![screenshot](/images/ifr.jpeg)
 
 replicating the The Next Web website [article page](https://thenextweb.com/)
 
