@@ -100,7 +100,7 @@ body {
 /* main area */
 
 main {
-  padding-top: 30px;
+  padding-top: 20px;
   font-family: "ARS Maquette Pro", Arial, Helvetica, sans-serif;
   font-size: 12px;
   position: relative;
@@ -1065,7 +1065,7 @@ main {
 
   /*  Start New Nav */
   main {
-    padding-top: 30px;
+    padding-top: 20px;
   }
 
   .link-second2 {
@@ -1492,7 +1492,7 @@ main {
   }
 
   main {
-    padding-top: 25px;
+    padding-top: 20px;
   }
 
   .tablet-logo {
