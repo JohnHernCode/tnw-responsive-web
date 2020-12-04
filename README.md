@@ -8,7 +8,7 @@ Building with Responsive Design
 
 ![screenshot](./images/sshot.png)
 
-Replicating the The [The Next Web website](https://thenextweb.com/)
+Replicating [The Next Web website](https://thenextweb.com/)
 
 ## Built With
 
@@ -19,9 +19,19 @@ Replicating the The [The Next Web website](https://thenextweb.com/)
 
 [Live Demo Link](https://johnhernandez-code.github.io/tnw-responsive-web/)
 
+To get a local copy up and running follow these simple example steps.
+
+Download the source code to your local desktop.
+Unzip the folder to a convenient location.
+Open the index.html file with your favorite browser.
+Feel free to have a look at the css and other supporting files.
+
+
 👤 **John Hernandez**
 
 - GitHub: [johnhernandez-code](https://github.com/johnhernandez-code)
+- Twitter: [@JohnHernCode](https://twitter.com/JohnHernCode)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/john-hernandez-56a7821b8/)
 
 👤 **Kalu Chinasa Agu**
 
