@@ -122,9 +122,11 @@ main {
 
 .back-image {
   background-image:
-    linear-gradient(to bottom,
+    linear-gradient(
+      to bottom,
       rgba(0, 0, 0, 0.7) 0%,
-      rgba(0, 0, 0, 0.7) 100%),
+      rgba(0, 0, 0, 0.7) 100%
+      ),
     url(../images/ifr.jpeg);
   background-position: center;
   background-size: cover;
@@ -514,9 +516,11 @@ main {
 
 .info-back-image {
   background-image:
-    linear-gradient(to bottom,
+    linear-gradient(
+      to bottom,
       rgba(0, 0, 0, 0.7) 0%,
-      rgba(0, 0, 0, 0.7) 100%),
+      rgba(0, 0, 0, 0.7) 100%
+      ),
     url(../images/sper.png);
   background-position: center;
   background-size: cover;
@@ -776,9 +780,11 @@ main {
     margin: 0;
     position: relative;
     background-image:
-      linear-gradient(to bottom,
-        rgba(0, 0, 0, 0.7) 0%,
-        rgba(0, 0, 0, 0.7) 100%),
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.7) 0%,
+      rgba(0, 0, 0, 0.7) 100%
+      ),
       url(../images/carstuff.jpg);
     background-position: center;
     background-size: cover;
@@ -803,10 +809,11 @@ main {
     grid-area: second;
     position: relative;
     background-image:
-      linear-gradient(to bottom,
-        rgba(0, 0, 0, 0.7) 0%,
-        rgba(0, 0, 0, 0.7) 100%),
-      url(../images/carstuff.jpg);
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.7) 0%,
+      rgba(0, 0, 0, 0.7) 100%
+      ),
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -818,10 +825,11 @@ main {
     grid-area: third;
     position: relative;
     background-image:
-      linear-gradient(to bottom,
-        rgba(0, 0, 0, 0.7) 0%,
-        rgba(0, 0, 0, 0.7) 100%),
-      url(../images/carstuff.jpg);
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.7) 0%,
+      rgba(0, 0, 0, 0.7) 100%
+      ),
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1014,9 +1022,11 @@ main {
 
   .info-back-image {
     background-image:
-      linear-gradient(to bottom,
-        rgba(0, 0, 0, 0.7) 0%,
-        rgba(0, 0, 0, 0.7) 100%),
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.7) 0%,
+      rgba(0, 0, 0, 0.7) 100%
+      ),
       url(../images/sper.png);
     background-position: center;
     background-size: cover;
@@ -1297,9 +1307,11 @@ main {
     margin: 0;
     position: relative;
     background-image:
-      linear-gradient(to bottom,
-        rgba(0, 0, 0, 0.7) 0%,
-        rgba(0, 0, 0, 0.7) 100%),
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.7) 0%,
+      rgba(0, 0, 0, 0.7) 100%
+      ),
       url(../images/carstuff.jpg);
     background-position: center;
     background-size: cover;
@@ -1324,9 +1336,11 @@ main {
     grid-area: second;
     position: relative;
     background-image:
-      linear-gradient(to bottom,
-        rgba(0, 0, 0, 0.7) 0%,
-        rgba(0, 0, 0, 0.7) 100%),
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.7) 0%,
+      rgba(0, 0, 0, 0.7) 100%
+      ),
       url(../images/carstuff.jpg);
     background-position: center;
     background-size: cover;
@@ -1339,9 +1353,11 @@ main {
     grid-area: third;
     position: relative;
     background-image:
-      linear-gradient(to bottom,
-        rgba(0, 0, 0, 0.7) 0%,
-        rgba(0, 0, 0, 0.7) 100%),
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.7) 0%,
+      rgba(0, 0, 0, 0.7) 100%
+      ),
       url(../images/carstuff.jpg);
     background-position: center;
     background-size: cover;
