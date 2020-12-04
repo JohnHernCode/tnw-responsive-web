@@ -601,20 +601,16 @@ main {
   text-decoration: none;
 }
 
-.faicon:hover {
-  color: #f42;
-}
-
-.fas:hover {
-  color: #f42;
-}
-
 .fafaicons span {
   padding-right: 20px;
 }
 
 .foot-link-span span {
   padding-right: 15px;
+}
+
+.foot-link-span a:hover {
+  color: #f42;
 }
 
 .footer-legal {
@@ -637,6 +633,9 @@ main {
 /* media settings medium and up */
 
 @media (min-width: 768px) {
+  #hide768 {
+    display: none;
+  }
   /*  Latest Area  */
 
   /* Turn off Mobile Latest */
@@ -1267,7 +1266,7 @@ main {
     line-height: 16pt;
     font-family: inherit;
   }
-
+  
   .footer-legal {
     display: none;
   }
@@ -1287,6 +1286,9 @@ main {
 
 /* media settings medium and up */
 @media (min-width: 1024px) {
+  #hide768 {
+    display: grid;
+  }
   .grid-container {
     display: none;
   }
@@ -1509,20 +1511,25 @@ main {
 
   .top-nav2 {
     display: flex;
+    background-color: rgb(19, 19, 19);
     height: 32px;
     left: 0;
-    background-color: rgb(19, 19, 19);
     justify-content: space-around;
     align-items: center;
     list-style: none;
-    visibility: visible;
   }
 
   .top-nav2 a {
     text-decoration: none;
     color: rgb(109, 109, 109);
+    padding-left: 25px;
+    padding-right: 15px;
   }
 
+  .top-nav2 .right {
+    flex: 1;
+  }
+    
   .info-links ul a {
     text-decoration: none;
     color: #000;
