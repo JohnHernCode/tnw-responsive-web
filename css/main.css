@@ -1,4 +1,4 @@
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -122,11 +122,10 @@ main {
 
 .back-image {
   background-image:
-    linear-gradient(
-      to bottom,
-      rgba(0,0,0,0.7) 0%,
-      rgba(0,0,0,0.7) 100%),
-      url(../images/ifr.jpeg);
+    linear-gradient(to bottom,
+      rgba(0, 0, 0, 0.7) 0%,
+      rgba(0, 0, 0, 0.7) 100%),
+    url(../images/ifr.jpeg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -268,7 +267,7 @@ main {
   color: #ff4500;
 }
 
-.fund-links  a{
+.fund-links a {
   text-decoration: none;
   color: #ff4500;
 }
@@ -308,7 +307,7 @@ main {
 
 .fund-price {
   height: 90px;
-  background: rgba(255,68,34,.08);
+  background: rgba(255, 68, 34, .08);
 }
 
 .p-price {
@@ -323,7 +322,7 @@ main {
   padding-left: 80px;
   margin-bottom: 20px;
   height: 30px;
-  
+
 }
 
 .fund-box a {
@@ -332,7 +331,7 @@ main {
 }
 
 .my-ul {
-  border-bottom: 1px solid rgba(255,68,34,.25);
+  border-bottom: 1px solid rgba(255, 68, 34, .25);
 }
 
 .lastest-fund ul {
@@ -347,7 +346,7 @@ main {
   font-size: 12px;
 }
 
-.fund-details li{
+.fund-details li {
   padding-left: 10px;
   font-size: 15px;
   text-align: justify;
@@ -446,12 +445,11 @@ main {
 }
 
 .info-back-image {
-  background-image: 
-  linear-gradient(
-  to bottom,
-  rgba(0,0,0,0.7) 0%,
-  rgba(0,0,0,0.7) 100%),
-  url(../images/sper.png);
+  background-image:
+    linear-gradient(to bottom,
+      rgba(0, 0, 0, 0.7) 0%,
+      rgba(0, 0, 0, 0.7) 100%),
+    url(../images/sper.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -511,7 +509,7 @@ main {
 }
 
 .latest-deals-grid {
-  display:  none;
+  display: none;
 }
 
 .latest-deals-grid1 {
@@ -669,7 +667,7 @@ main {
     margin-left: 20px;
     z-index: 750;
   }
- 
+
   .nav-bar {
     display: none;
   }
@@ -687,11 +685,11 @@ main {
 
   .top-nav a {
     text-decoration: none;
-    color:rgb(109,109,109);
+    color: rgb(109, 109, 109);
   }
-  
-  .top-nav a:hover{
-    color:white;
+
+  .top-nav a:hover {
+    color: white;
   }
 
   .link-second {
@@ -708,7 +706,7 @@ main {
 
   .link-second a {
     text-decoration: none;
-    color:rgb(109,109,109);
+    color: rgb(109, 109, 109);
   }
 
   .link-second .search-link-box {
@@ -811,12 +809,11 @@ main {
   }
 
   .info-back-image {
-    background-image: 
-    linear-gradient(
-    to bottom,
-    rgba(0,0,0,0.7) 0%,
-    rgba(0,0,0,0.7) 100%),
-    url(../images/sper.png);
+    background-image:
+      linear-gradient(to bottom,
+        rgba(0, 0, 0, 0.7) 0%,
+        rgba(0, 0, 0, 0.7) 100%),
+      url(../images/sper.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -877,12 +874,11 @@ main {
   .grid-a {
     margin: 0;
     position: relative;
-    background-image: 
-    linear-gradient(
-    to bottom,
-    rgba(0,0,0,0.7) 0%,
-    rgba(0,0,0,0.7) 100%),
-    url(../images/carstuff.jpg);
+    background-image:
+      linear-gradient(to bottom,
+        rgba(0, 0, 0, 0.7) 0%,
+        rgba(0, 0, 0, 0.7) 100%),
+      url(../images/carstuff.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -892,7 +888,7 @@ main {
 
   .grid-a .grid-logo {
     position: absolute;
-     padding-top: 10px;
+    padding-top: 10px;
     padding-left: 15px;
   }
 
@@ -908,12 +904,11 @@ main {
   .grid-b {
     grid-area: second;
     position: relative;
-    background-image: 
-    linear-gradient(
-    to bottom,
-    rgba(0,0,0,0.7) 0%,
-    rgba(0,0,0,0.7) 100%),
-    url(../images/carstuff.jpg);
+    background-image:
+      linear-gradient(to bottom,
+        rgba(0, 0, 0, 0.7) 0%,
+        rgba(0, 0, 0, 0.7) 100%),
+      url(../images/carstuff.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -924,12 +919,11 @@ main {
   .grid-c {
     grid-area: third;
     position: relative;
-    background-image: 
-    linear-gradient(
-    to bottom,
-    rgba(0,0,0,0.7) 0%,
-    rgba(0,0,0,0.7) 100%),
-    url(../images/carstuff.jpg);
+    background-image:
+      linear-gradient(to bottom,
+        rgba(0, 0, 0, 0.7) 0%,
+        rgba(0, 0, 0, 0.7) 100%),
+      url(../images/carstuff.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1032,32 +1026,32 @@ main {
     padding-left: 20px;
     padding-right: 20px;
   }
-  
+
   .latest-head-flex .deals {
     font-size: 20px;
   }
-  
+
   .latest-head-flex .deals a {
     color: #f42;
     text-decoration: none;
     font-weight: 700;
     font-size: 26px;
   }
-  
+
   .latest-head-flex .see-more {
     padding-top: 5px;
   }
-  
+
   .latest-grid {
     display: grid;
   }
 
-  
+
 
   .latest-grid1 {
     display: none;
   }
-  
+
   .latest-items-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -1067,12 +1061,12 @@ main {
     padding-bottom: 5px;
     padding-right: 15px;
   }
-  
+
   .latest-grid img {
     max-width: 161px;
     max-height: 141px;
     padding-bottom: 20px;
-  
+
   }
 
   .latest-items-grid .child {
@@ -1081,7 +1075,7 @@ main {
     padding-right: 15px;
     padding-left: 15px;
   }
-  
+
   .latest-items-grid .child .price {
     text-decoration: line-through;
     font-size: 12px;
@@ -1106,12 +1100,12 @@ main {
     padding-bottom: 5px;
     padding-right: 15px;
   }
-  
+
   .latest-deals-grid img {
     max-width: 161px;
     max-height: 141px;
     padding-bottom: 20px;
-  
+
   }
 
   .latest-items-deals-grid .child {
@@ -1120,7 +1114,7 @@ main {
     padding-right: 15px;
     padding-left: 15px;
   }
-  
+
   .latest-items-deals-grid .child .price {
     text-decoration: line-through;
     font-size: 12px;
@@ -1136,7 +1130,7 @@ main {
   .section-d {
     display: grid;
   }
-  
+
   .fund-grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -1150,28 +1144,28 @@ main {
     padding-left: 10px;
     padding-top: 20px;
   }
-  
+
   .fund-title-grid {
     font-size: 24px;
     font-weight: 700;
   }
-  
+
   .fund-title-grid a {
     text-decoration: none;
     color: #ff4500;
   }
-  
+
   .fund-links-grid {
     padding-top: 10px;
     font-size: 16px;
     color: #ff4500;
   }
-  
-  .fund-links-grid a{
+
+  .fund-links-grid a {
     text-decoration: none;
     color: #ff4500;
   }
-  
+
   .fund-box-grid {
     height: 265px;
     display: flex;
@@ -1179,7 +1173,7 @@ main {
     padding-bottom: 10px;
     padding-top: 10px;
   }
-  
+
   .lastest-fund-grid {
     position: relative;
     padding-left: 10px;
@@ -1187,14 +1181,14 @@ main {
     background-color: rgb(255, 250, 248);
     padding-bottom: 15px;
   }
-  
+
   .lastest-fund-grid .img-top-grid img {
     position: absolute;
     background-color: inherit;
     top: 10px;
     left: 20px;
   }
-  
+
   .lastest-fund-grid h4 {
     color: white;
     margin-top: 10px;
@@ -1205,12 +1199,12 @@ main {
     padding-bottom: 10px;
     font-size: 16px;
   }
-  
+
   .fund-price-grid {
     height: 90px;
-    background: rgba(255,68,34,.08);
+    background: rgba(255, 68, 34, .08);
   }
-  
+
   .p-price-grid {
     font-size: 20px;
     line-height: 0;
@@ -1218,27 +1212,27 @@ main {
     padding-top: 15px;
     height: 30px;
   }
-  
+
   .p-last-grid {
     padding-left: 80px;
     margin-bottom: 20px;
     height: 30px;
-    
+
   }
-  
+
   .fund-box-grid a {
     text-decoration: none;
     color: black;
   }
-  
+
   .my-ul-grid {
-    border-bottom: 1px solid rgba(255,68,34,.25);
+    border-bottom: 1px solid rgba(255, 68, 34, .25);
   }
-  
+
   .lastest-fund-grid ul {
     list-style: none;
   }
-  
+
   .lastest-fund-grid .fund-details-grid {
     display: flex;
     justify-content: flex-start;
@@ -1246,17 +1240,17 @@ main {
     padding-left: 10px;
     font-size: 12px;
   }
-  
-  .fund-details-grid li{
+
+  .fund-details-grid li {
     padding-left: 10px;
     font-size: 15px;
     text-align: justify;
   }
-  
+
   .fund-details-grid .extra-one {
     padding-left: 15px;
   }
-  
+
   .lastest-fund-grid header {
     background-color: rgb(254, 242, 240);
   }
@@ -1282,12 +1276,11 @@ main {
   .grid-a {
     margin: 0;
     position: relative;
-    background-image: 
-    linear-gradient(
-    to bottom,
-    rgba(0,0,0,0.7) 0%,
-    rgba(0,0,0,0.7) 100%),
-    url(../images/carstuff.jpg);
+    background-image:
+      linear-gradient(to bottom,
+        rgba(0, 0, 0, 0.7) 0%,
+        rgba(0, 0, 0, 0.7) 100%),
+      url(../images/carstuff.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1313,12 +1306,11 @@ main {
   .grid-b {
     grid-area: second;
     position: relative;
-    background-image: 
-    linear-gradient(
-    to bottom,
-    rgba(0,0,0,0.7) 0%,
-    rgba(0,0,0,0.7) 100%),
-    url(../images/carstuff.jpg);
+    background-image:
+      linear-gradient(to bottom,
+        rgba(0, 0, 0, 0.7) 0%,
+        rgba(0, 0, 0, 0.7) 100%),
+      url(../images/carstuff.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1329,12 +1321,11 @@ main {
   .grid-c {
     grid-area: third;
     position: relative;
-    background-image: 
-    linear-gradient(
-    to bottom,
-    rgba(0,0,0,0.7) 0%,
-    rgba(0,0,0,0.7) 100%),
-    url(../images/carstuff.jpg);
+    background-image:
+      linear-gradient(to bottom,
+        rgba(0, 0, 0, 0.7) 0%,
+        rgba(0, 0, 0, 0.7) 100%),
+      url(../images/carstuff.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1468,11 +1459,11 @@ main {
 
   .top-nav2 a {
     text-decoration: none;
-    color:rgb(109,109,109);
+    color: rgb(109, 109, 109);
   }
-  
-  .top-nav2 a:hover{
-    color:white;
+
+  .top-nav2 a:hover {
+    color: white;
   }
 
   .link-second2 {
@@ -1486,13 +1477,13 @@ main {
     z-index: 994;
   }
 
-  .link-second2 .second-divs:nth-child(7){
-    flex:1;
+  .link-second2 .second-divs:nth-child(7) {
+    flex: 1;
   }
 
   .link-second2 a {
     text-decoration: none;
-    color:rgb(109,109,109);
+    color: rgb(109, 109, 109);
     padding-left: 25px;
     text-transform: uppercase;
     font-weight: 500;
@@ -1534,7 +1525,7 @@ main {
     padding-right: 15px;
     padding-left: 15px;
   }
-  
+
   .latest-items-deals-grid1 .child .price {
     text-decoration: line-through;
     font-size: 12px;
@@ -1558,7 +1549,7 @@ main {
     padding-bottom: 5px;
     padding-right: 15px;
   }
-  
+
   /* .latest-grid1 img {
     max-width: 161px;
     max-height: 141px;
@@ -1577,7 +1568,7 @@ main {
     padding-right: 15px;
     padding-left: 15px;
   }
-  
+
   .latest-items-grid1 .child .price {
     text-decoration: line-through;
     font-size: 12px;
