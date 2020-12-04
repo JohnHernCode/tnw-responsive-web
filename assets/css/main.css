@@ -127,7 +127,7 @@ main {
       rgba(0, 0, 0, 0.7) 0%,
       rgba(0, 0, 0, 0.7) 100%
     ),
-    url(../images/ifr.jpeg);
+    url(../assets/images/ifr.jpeg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -521,7 +521,7 @@ main {
       rgba(0, 0, 0, 0.7) 0%,
       rgba(0, 0, 0, 0.7) 100%
     ),
-    url(../images/sper.png);
+    url(../assets/images/sper.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -777,7 +777,7 @@ main {
         rgba(0, 0, 0, 0.7) 0%,
         rgba(0, 0, 0, 0.7) 100%
       ),
-      url(../images/carstuff.jpg);
+      url(../assets/images/carstuff.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -806,7 +806,7 @@ main {
         rgba(0, 0, 0, 0.7) 0%,
         rgba(0, 0, 0, 0.7) 100%
       ),
-      url(../images/carstuff.jpg);
+      url(../assets/images/carstuff.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -823,7 +823,7 @@ main {
         rgba(0, 0, 0, 0.7) 0%,
         rgba(0, 0, 0, 0.7) 100%
       ),
-      url(../images/carstuff.jpg);
+      url(../assets/images/carstuff.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1021,7 +1021,7 @@ main {
         rgba(0, 0, 0, 0.7) 0%,
         rgba(0, 0, 0, 0.7) 100%
       ),
-      url(../images/sper.png);
+      url(../assets/images/sper.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1286,7 +1286,7 @@ main {
         rgba(0, 0, 0, 0.7) 0%,
         rgba(0, 0, 0, 0.7) 100%
       ),
-      url(../images/carstuff.jpg);
+      url(../assets/images/carstuff.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1315,7 +1315,7 @@ main {
         rgba(0, 0, 0, 0.7) 0%,
         rgba(0, 0, 0, 0.7) 100%
       ),
-      url(../images/carstuff.jpg);
+      url(../assets/images/carstuff.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1332,7 +1332,7 @@ main {
         rgba(0, 0, 0, 0.7) 0%,
         rgba(0, 0, 0, 0.7) 100%
       ),
-      url(../images/carstuff.jpg);
+      url(../assets/images/carstuff.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

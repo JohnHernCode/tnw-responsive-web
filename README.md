@@ -6,7 +6,7 @@ Building with Responsive Design
 
 
 
-![screenshot](/images/ifr.jpeg)
+![screenshot](./images/sshot.png)
 
 Replicating the The [The Next Web website](https://thenextweb.com/)
 
@@ -41,3 +41,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Microverse
+
+## 📝 License
+
+This project is [MIT](https://github.com/JohnHernandez-code/tnw-responsive-web/blob/main/LICENSE) licensed.
