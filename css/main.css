@@ -122,12 +122,10 @@ main {
 
 .back-image {
   background-image:
-    linear-gradient(
-      to bottom,
+    linear-gradient(to bottom,
       rgba(0, 0, 0, 0.7) 0%,
-      rgba(0, 0, 0, 0.7) 100%
-    ),
-    url(/assets/ifr.jpeg);
+      rgba(0, 0, 0, 0.7) 100%),
+    url(../images/ifr.jpeg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -516,12 +514,10 @@ main {
 
 .info-back-image {
   background-image:
-    linear-gradient(
-      to bottom,
+    linear-gradient(to bottom,
       rgba(0, 0, 0, 0.7) 0%,
-      rgba(0, 0, 0, 0.7) 100%
-    ),
-    url(/assets/sper.png);
+      rgba(0, 0, 0, 0.7) 100%),
+    url(../images/sper.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -780,12 +776,10 @@ main {
     margin: 0;
     position: relative;
     background-image:
-      linear-gradient(
-        to bottom,
+      linear-gradient(to bottom,
         rgba(0, 0, 0, 0.7) 0%,
-        rgba(0, 0, 0, 0.7) 100%
-      ),
-      url(/assets/carstuff.jpg);
+        rgba(0, 0, 0, 0.7) 100%),
+      url(../images/carstuff.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -809,12 +803,10 @@ main {
     grid-area: second;
     position: relative;
     background-image:
-      linear-gradient(
-        to bottom,
+      linear-gradient(to bottom,
         rgba(0, 0, 0, 0.7) 0%,
-        rgba(0, 0, 0, 0.7) 100%
-      ),
-      url(/assets/carstuff.jpg);
+        rgba(0, 0, 0, 0.7) 100%),
+      url(../images/carstuff.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -826,12 +818,10 @@ main {
     grid-area: third;
     position: relative;
     background-image:
-      linear-gradient(
-        to bottom,
+      linear-gradient(to bottom,
         rgba(0, 0, 0, 0.7) 0%,
-        rgba(0, 0, 0, 0.7) 100%
-      ),
-      url(/assets/carstuff.jpg);
+        rgba(0, 0, 0, 0.7) 100%),
+      url(../images/carstuff.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1024,12 +1014,10 @@ main {
 
   .info-back-image {
     background-image:
-      linear-gradient(
-        to bottom,
+      linear-gradient(to bottom,
         rgba(0, 0, 0, 0.7) 0%,
-        rgba(0, 0, 0, 0.7) 100%
-      ),
-      url(/assets/sper.png);
+        rgba(0, 0, 0, 0.7) 100%),
+      url(../images/sper.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1267,18 +1255,18 @@ main {
     line-height: 16pt;
     font-family: inherit;
   }
-  
+
   .footer-legal {
     display: none;
   }
-  
+
   .footer-legalext {
     background: #000;
     padding: 35px 0;
     color: #fff;
     text-align: center;
   }
-  
+
   .link-wrap2ext {
     display: flex;
     justify-content: space-around;
@@ -1309,12 +1297,10 @@ main {
     margin: 0;
     position: relative;
     background-image:
-      linear-gradient(
-        to bottom,
+      linear-gradient(to bottom,
         rgba(0, 0, 0, 0.7) 0%,
-        rgba(0, 0, 0, 0.7) 100%
-      ),
-      url(/assets/carstuff.jpg);
+        rgba(0, 0, 0, 0.7) 100%),
+      url(../images/carstuff.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1338,12 +1324,10 @@ main {
     grid-area: second;
     position: relative;
     background-image:
-      linear-gradient(
-        to bottom,
+      linear-gradient(to bottom,
         rgba(0, 0, 0, 0.7) 0%,
-        rgba(0, 0, 0, 0.7) 100%
-      ),
-      url(/assets/carstuff.jpg);
+        rgba(0, 0, 0, 0.7) 100%),
+      url(../images/carstuff.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1355,12 +1339,10 @@ main {
     grid-area: third;
     position: relative;
     background-image:
-      linear-gradient(
-        to bottom,
+      linear-gradient(to bottom,
         rgba(0, 0, 0, 0.7) 0%,
-        rgba(0, 0, 0, 0.7) 100%
-      ),
-      url(/assets/carstuff.jpg);
+        rgba(0, 0, 0, 0.7) 100%),
+      url(../images/carstuff.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1531,7 +1513,7 @@ main {
   .top-nav2 .right {
     flex: 1;
   }
-  
+
   .info-links ul a {
     text-decoration: none;
     color: #000;
