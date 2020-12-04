@@ -1,27 +1,29 @@
 @font-face {
   font-family: 'ARS Maquette Pro';
-		src: url('ARSMaquettePro-BlackItalic.eot');
-		src:
-				local('ARS Maquette Pro Black Italic'), local('ARSMaquettePro-BlackItalic'),
-				url('ARSMaquettePro-BlackItalic.eot?#iefix') format('embedded-opentype'),
-				url('ARSMaquettePro-BlackItalic.woff2') format('woff2'),
-				url('ARSMaquettePro-BlackItalic.woff') format('woff'),
-				url('ARSMaquettePro-BlackItalic.ttf') format('truetype');
-		font-weight: 900;
-		font-style: italic;
+  src: url('ARSMaquettePro-BlackItalic.eot');
+  src:
+    local('ARS Maquette Pro Black Italic'),
+    local('ARSMaquettePro-BlackItalic'),
+    url('ARSMaquettePro-BlackItalic.eot?#iefix') format('embedded-opentype'),
+	url('ARSMaquettePro-BlackItalic.woff2') format('woff2'),
+	url('ARSMaquettePro-BlackItalic.woff') format('woff'),
+	url('ARSMaquettePro-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
 }
 
 @font-face {
-		font-family: 'ARS Maquette Pro';
-		src: url('ARSMaquettePro-Regular.eot');
-		src:
-				local('ARS Maquette Pro Regular'), local('ARSMaquettePro-Regular'),
-				url('ARSMaquettePro-Regular.eot?#iefix') format('embedded-opentype'),
-				url('ARSMaquettePro-Regular.woff2') format('woff2'),
-				url('ARSMaquettePro-Regular.woff') format('woff'),
-				url('ARSMaquettePro-Regular.ttf') format('truetype');
-		font-weight: normal;
-		font-style: normal;
+  font-family: 'ARS Maquette Pro';
+  src: url('ARSMaquettePro-Regular.eot');
+  src:
+	local('ARS Maquette Pro Regular'),
+	local('ARSMaquettePro-Regular'),
+	url('ARSMaquettePro-Regular.eot?#iefix') format('embedded-opentype'),
+	url('ARSMaquettePro-Regular.woff2') format('woff2'),
+	url('ARSMaquettePro-Regular.woff') format('woff'),
+	url('ARSMaquettePro-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
