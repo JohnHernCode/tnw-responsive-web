@@ -892,13 +892,13 @@ main {
 
   .grid-a .grid-logo {
     position: absolute;
-    padding-top: 10px;
+     padding-top: 10px;
     padding-left: 15px;
   }
 
   .grid-a .grid-logo img {
     height: 112px;
-    width: 338px;
+    width: 200px;
   }
 
   .grid-a {
@@ -1058,7 +1058,7 @@ main {
     /*grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));*/
     height: auto;
     padding-left: 5px;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
     padding-right: 15px;
   }
   
@@ -1066,12 +1066,9 @@ main {
     max-width: 161px;
     max-height: 141px;
     padding-bottom: 20px;
+  
   }
 
-  .latest-desc {
-    max-width: 161px;
-  }
-  
   .latest-items-grid .child {
     font-weight: 600;
     font-size: 15px;
