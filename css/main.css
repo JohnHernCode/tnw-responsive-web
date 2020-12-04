@@ -654,16 +654,7 @@ a .lastest-fund .p-price {
     padding-left: 10px;
     padding-right: 15px;
     display: grid;
-    grid-template-areas: '1fr 1fr 1fr';
-    grid-gap: 10px;
-    padding-bottom: 40px;
-  }
-
-  .info-boxes-grid {
-    padding-left: 10px;
-    padding-right: 15px;
-    display: grid;
-    grid-template-areas: '1fr 1fr 1fr';
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 10px;
     padding-bottom: 40px;
   }
