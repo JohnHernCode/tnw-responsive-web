@@ -122,10 +122,11 @@ main {
 
 .back-image {
   background-image:
-    linear-gradient(to bottom,
+    linear-gradient(
+      to bottom,
       rgba(0, 0, 0, 0.7) 0%,
       rgba(0, 0, 0, 0.7) 100%),
-    url(../images/ifr.jpeg);
+      url(../images/ifr.jpeg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -279,7 +280,7 @@ main {
   padding-bottom: 10px;
 }
 
-.lastest-fund {
+.newest-fund {
   position: relative;
   padding-left: 10px;
   padding-right: 15px;
@@ -287,27 +288,26 @@ main {
   padding-bottom: 15px;
 }
 
-.lastest-fund .img-top img {
+.newest-fund .img-top img {
   position: absolute;
   background-color: inherit;
   top: 10px;
   left: 20px;
 }
 
-.lastest-fund h4 {
+.newest-fund h4 {
   color: white;
   margin-top: 10px;
   padding-top: 10px;
   background-color: rgb(255, 0, 0);
   padding-left: 80px;
-  color: white;
   padding-bottom: 10px;
   font-size: 16px;
 }
 
 .fund-price {
   height: 90px;
-  background: rgba(255, 68, 34, .08);
+  background: rgba(255, 68, 34, 0.8);
 }
 
 .p-price {
@@ -322,7 +322,6 @@ main {
   padding-left: 80px;
   margin-bottom: 20px;
   height: 30px;
-
 }
 
 .fund-box a {
@@ -331,17 +330,17 @@ main {
 }
 
 .my-ul {
-  border-bottom: 1px solid rgba(255, 68, 34, .25);
+  border-bottom: 1px solid rgba(255, 68, 34, 0.25);
 }
 
-.lastest-fund ul {
+.newest-fund ul {
   list-style: none;
 }
 
-.lastest-fund .fund-details {
+.newest-fund .fund-details {
   display: flex;
   justify-content: flex-start;
-  margin-left: 0px;
+  margin-left: 0;
   padding-left: 10px;
   font-size: 12px;
 }
@@ -356,7 +355,7 @@ main {
   padding-left: 15px;
 }
 
-.lastest-fund header {
+.newest-fund header {
   background-color: rgb(254, 242, 240);
 }
 
@@ -419,7 +418,7 @@ main {
   display: flex;
   justify-content: space-between;
   height: 96px;
-  background-color: rgba(255, 68, 34, .06);
+  background-color: rgba(255, 68, 34, 0.6);
   color: #ff4500;
 }
 
@@ -446,9 +445,10 @@ main {
 
 .info-back-image {
   background-image:
-    linear-gradient(to bottom,
-      rgba(0, 0, 0, 0.7) 0%,
-      rgba(0, 0, 0, 0.7) 100%),
+  linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.7) 0%,
+    rgba(0, 0, 0, 0.7) 100%),
     url(../images/sper.png);
   background-position: center;
   background-size: cover;
@@ -499,6 +499,7 @@ main {
 }
 
 /* latest details area */
+
 /* Turn off Extended Latest */
 .latest-grid {
   display: none;
@@ -538,16 +539,12 @@ main {
 }
 
 .latest {
-  /* position: relative;
-  display: flex;
-  flex-direction: column; */
   display: grid;
 }
 
 .latest-items {
   display: grid;
   grid-template-columns: 75px auto;
-  /* grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); */
   height: auto;
   padding-left: 15px;
 }
@@ -628,6 +625,7 @@ main {
 }
 
 /* media settings medium and up */
+
 @media (min-width: 768px) {
 
   /*  Start New Nav */
@@ -1174,7 +1172,7 @@ main {
     padding-top: 10px;
   }
 
-  .lastest-fund-grid {
+  .newest-fund-grid {
     position: relative;
     padding-left: 10px;
     padding-right: 15px;
@@ -1182,14 +1180,14 @@ main {
     padding-bottom: 15px;
   }
 
-  .lastest-fund-grid .img-top-grid img {
+  .newest-fund-grid .img-top-grid img {
     position: absolute;
     background-color: inherit;
     top: 10px;
     left: 20px;
   }
 
-  .lastest-fund-grid h4 {
+  .newest-fund-grid h4 {
     color: white;
     margin-top: 10px;
     padding-top: 10px;
@@ -1229,11 +1227,11 @@ main {
     border-bottom: 1px solid rgba(255, 68, 34, .25);
   }
 
-  .lastest-fund-grid ul {
+  .newest-fund-grid ul {
     list-style: none;
   }
 
-  .lastest-fund-grid .fund-details-grid {
+  .newest-fund-grid .fund-details-grid {
     display: flex;
     justify-content: flex-start;
     margin-left: 0px;
@@ -1251,7 +1249,7 @@ main {
     padding-left: 15px;
   }
 
-  .lastest-fund-grid header {
+  .newest-fund-grid header {
     background-color: rgb(254, 242, 240);
   }
 }
