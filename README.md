@@ -6,30 +6,29 @@ Building with Responsive Design
 
 
 
-![Screenshot](images/sshot.png?raw=true "Screenshot")
+screenshot
 
 Built With
 
     HTML
     CSS
 
-Demo:
 
-![DEMO LINK](https://johnhernandez-code.github.io/tnw-responsive-web)
 
-👤 Author1 (Github)
+👤 Author1
 
-![johnhernandez-code](https://github.com/JohnHernandez-code)
+    GitHub: @johnhernandez-code
 
-👤 Author2 (Github)
+👤 Author2
 
-![Nasa28](https://github.com/Nasa28)
+    GitHub: @Nasa28
 
 
 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
+Feel free to check the issues page.
 Show your support
 
 Give a ⭐️ if you like this project!
