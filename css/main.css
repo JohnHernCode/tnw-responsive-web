@@ -570,8 +570,6 @@ main {
   display: none;
 }
 
-
-
 /* footer area */
 .full-footer {
   text-align: center;
@@ -631,7 +629,6 @@ main {
 /* media settings medium and up */
 
 @media (min-width: 768px) {
-
   /* turn off mobile cover */
   .flex-container {
     display: none;
@@ -792,9 +789,9 @@ main {
     grid-row: 1;
     grid-column: 1;
   }
-  
+
   /* Info Container Grid */
-  
+
   /* turn of mobile info boxes */
   .info-boxes-area {
     display: none;
@@ -1020,8 +1017,8 @@ main {
     z-index: 994;
   }
 
-  
   /*  Latest Area  */
+
   /* Turn off Mobile Latest */
   .latest {
     display: none;
@@ -1053,8 +1050,6 @@ main {
     display: grid;
   }
 
-
-
   .latest-grid1 {
     display: none;
   }
@@ -1062,7 +1057,6 @@ main {
   .latest-items-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    /* grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); */
     height: auto;
     padding-left: 15px;
     padding-bottom: 5px;
@@ -1073,7 +1067,6 @@ main {
     max-width: 161px;
     max-height: 141px;
     padding-bottom: 20px;
-
   }
 
   .latest-items-grid .child {
@@ -1101,7 +1094,6 @@ main {
   .latest-items-deals-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    /* grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); */
     height: auto;
     padding-left: 15px;
     padding-bottom: 5px;
@@ -1112,7 +1104,6 @@ main {
     max-width: 161px;
     max-height: 141px;
     padding-bottom: 20px;
-
   }
 
   .latest-items-deals-grid .child {
@@ -1202,14 +1193,13 @@ main {
     padding-top: 10px;
     background-color: rgb(255, 0, 0);
     padding-left: 80px;
-    color: white;
     padding-bottom: 10px;
     font-size: 16px;
   }
 
   .fund-price-grid {
     height: 90px;
-    background: rgba(255, 68, 34, .08);
+    background: rgba(255, 68, 34, 0.8);
   }
 
   .p-price-grid {
@@ -1224,7 +1214,6 @@ main {
     padding-left: 80px;
     margin-bottom: 20px;
     height: 30px;
-
   }
 
   .fund-box-grid a {
@@ -1233,7 +1222,7 @@ main {
   }
 
   .my-ul-grid {
-    border-bottom: 1px solid rgba(255, 68, 34, .25);
+    border-bottom: 1px solid rgba(255, 68, 34, 0.25);
   }
 
   .newest-fund-grid ul {
@@ -1243,7 +1232,7 @@ main {
   .newest-fund-grid .fund-details-grid {
     display: flex;
     justify-content: flex-start;
-    margin-left: 0px;
+    margin-left: 0;
     padding-left: 10px;
     font-size: 12px;
   }
@@ -1265,7 +1254,6 @@ main {
 
 /* media settings medium and up */
 @media (min-width: 1024px) {
-
   .grid-container {
     display: none;
   }
@@ -1295,6 +1283,7 @@ main {
     background-repeat: no-repeat;
     font-size: 12px;
     color: #adabab;
+    grid-area: first;
   }
 
   .grid-a .grid-logo {
@@ -1306,10 +1295,6 @@ main {
   .grid-a .grid-logo img {
     height: 112px;
     width: 338px;
-  }
-
-  .grid-a {
-    grid-area: first;
   }
 
   .grid-b {
@@ -1442,7 +1427,6 @@ main {
     padding-top: 25px;
   }
 
-
   .tablet-logo {
     display: none;
   }
@@ -1520,7 +1504,6 @@ main {
   .latest-items-deals-grid1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    /* grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); */
     height: auto;
     padding-left: 15px;
     padding-bottom: 5px;
@@ -1556,19 +1539,11 @@ main {
   .latest-items-grid1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    /* grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); */
     height: auto;
     padding-left: 15px;
     padding-bottom: 5px;
     padding-right: 15px;
   }
-
-  /* .latest-grid1 img {
-    max-width: 161px;
-    max-height: 141px;
-    padding-bottom: 20px;
-  
-  } */
 
   .latest-items-grid1 .child img {
     width: 250px;
