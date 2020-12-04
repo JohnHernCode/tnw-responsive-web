@@ -127,7 +127,7 @@ main {
       rgba(0, 0, 0, 0.7) 0%,
       rgba(0, 0, 0, 0.7) 100%
     ),
-    url(../assets/images/ifr.jpeg);
+    url(/assets/ifr.jpeg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -521,7 +521,7 @@ main {
       rgba(0, 0, 0, 0.7) 0%,
       rgba(0, 0, 0, 0.7) 100%
     ),
-    url(../assets/images/sper.png);
+    url(/assets/sper.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -599,6 +599,14 @@ main {
 .link-wrap a {
   color: #fff;
   text-decoration: none;
+}
+
+.faicon:hover {
+  color: #f42;
+}
+
+.fas:hover {
+  color: #f42;
 }
 
 .fafaicons span {
@@ -777,7 +785,7 @@ main {
         rgba(0, 0, 0, 0.7) 0%,
         rgba(0, 0, 0, 0.7) 100%
       ),
-      url(../assets/images/carstuff.jpg);
+      url(/assets/carstuff.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -806,7 +814,7 @@ main {
         rgba(0, 0, 0, 0.7) 0%,
         rgba(0, 0, 0, 0.7) 100%
       ),
-      url(../assets/images/carstuff.jpg);
+      url(/assets/carstuff.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -823,7 +831,7 @@ main {
         rgba(0, 0, 0, 0.7) 0%,
         rgba(0, 0, 0, 0.7) 100%
       ),
-      url(../assets/images/carstuff.jpg);
+      url(/assets/carstuff.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1021,7 +1029,7 @@ main {
         rgba(0, 0, 0, 0.7) 0%,
         rgba(0, 0, 0, 0.7) 100%
       ),
-      url(../assets/images/sper.png);
+      url(/assets/sper.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1259,6 +1267,22 @@ main {
     line-height: 16pt;
     font-family: inherit;
   }
+
+  .footer-legal {
+    display: none;
+  }
+  
+  .footer-legalext {
+    background: #000;
+    padding: 35px 0;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .link-wrap2ext {
+    display: flex;
+    justify-content: space-around;
+  }
 }
 
 /* media settings medium and up */
@@ -1286,7 +1310,7 @@ main {
         rgba(0, 0, 0, 0.7) 0%,
         rgba(0, 0, 0, 0.7) 100%
       ),
-      url(../assets/images/carstuff.jpg);
+      url(/assets/carstuff.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1315,7 +1339,7 @@ main {
         rgba(0, 0, 0, 0.7) 0%,
         rgba(0, 0, 0, 0.7) 100%
       ),
-      url(../assets/images/carstuff.jpg);
+      url(/assets/carstuff.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1332,7 +1356,7 @@ main {
         rgba(0, 0, 0, 0.7) 0%,
         rgba(0, 0, 0, 0.7) 100%
       ),
-      url(../assets/images/carstuff.jpg);
+      url(/assets/carstuff.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
