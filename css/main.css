@@ -122,12 +122,12 @@ main {
 
 .back-image {
   background-image:
-  linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0.7) 0%,
-    rgba(0, 0, 0, 0.7) 100%
-    ),
-    url(../images/ifr.jpeg);
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.7) 0%,
+      rgba(0, 0, 0, 0.7) 100%
+      ),
+      url(../images/ifr.jpeg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -516,12 +516,12 @@ main {
 
 .info-back-image {
   background-image:
-  linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0.7) 0%,
-    rgba(0, 0, 0, 0.7) 100%
-    ),
-    url(../images/sper.png);
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.7) 0%,
+      rgba(0, 0, 0, 0.7) 100%
+      ),
+      url(../images/sper.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -629,7 +629,7 @@ main {
 /* media settings medium and up */
 
 @media (min-width: 768px) {
-      /*  Latest Area  */
+  /*  Latest Area  */
 
   /* Turn off Mobile Latest */
   .latest {
@@ -772,12 +772,12 @@ main {
     margin: 0;
     position: relative;
     background-image:
-    linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0.7) 0%,
-      rgba(0, 0, 0, 0.7) 100%
-      ),
-      url(../images/carstuff.jpg);
+      linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.7) 0%,
+        rgba(0, 0, 0, 0.7) 100%
+        ),
+        url(../images/carstuff.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -801,12 +801,12 @@ main {
     grid-area: second;
     position: relative;
     background-image:
-    linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0.7) 0%,
-      rgba(0, 0, 0, 0.7) 100%
-      ),
-      url(../images/carstuff.jpg);
+      linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.7) 0%,
+        rgba(0, 0, 0, 0.7) 100%
+        ),
+        url(../images/carstuff.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -818,12 +818,12 @@ main {
     grid-area: third;
     position: relative;
     background-image:
-    linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0.7) 0%,
-      rgba(0, 0, 0, 0.7) 100%
-      ),
-      url(../images/carstuff.jpg);
+      linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.7) 0%,
+        rgba(0, 0, 0, 0.7) 100%
+        ),
+        url(../images/carstuff.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1016,12 +1016,12 @@ main {
 
   .info-back-image {
     background-image:
-    linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0.7) 0%,
-      rgba(0, 0, 0, 0.7) 100%
-      ),
-      url(../images/sper.png);
+      linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.7) 0%,
+        rgba(0, 0, 0, 0.7) 100%
+        ),
+        url(../images/sper.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1103,7 +1103,6 @@ main {
     opacity: 0.25;
   }
 
-  
   .top-nav a:hover {
     color: white;
   }
@@ -1282,12 +1281,12 @@ main {
     margin: 0;
     position: relative;
     background-image:
-    linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0.7) 0%,
-      rgba(0, 0, 0, 0.7) 100%
-      ),
-      url(../images/carstuff.jpg);
+      linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.7) 0%,
+        rgba(0, 0, 0, 0.7) 100%
+        ),
+        url(../images/carstuff.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1311,12 +1310,12 @@ main {
     grid-area: second;
     position: relative;
     background-image:
-    linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0.7) 0%,
-      rgba(0, 0, 0, 0.7) 100%
-      ),
-      url(../images/carstuff.jpg);
+      linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.7) 0%,
+        rgba(0, 0, 0, 0.7) 100%
+        ),
+        url(../images/carstuff.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1328,12 +1327,12 @@ main {
     grid-area: third;
     position: relative;
     background-image:
-    linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0.7) 0%,
-      rgba(0, 0, 0, 0.7) 100%
-      ),
-      url(../images/carstuff.jpg);
+      linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.7) 0%,
+        rgba(0, 0, 0, 0.7) 100%
+        ),
+        url(../images/carstuff.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1500,6 +1499,15 @@ main {
     color: rgb(109, 109, 109);
   }
 
+  .info-links ul a {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 16pt;
+    font-family: inherit;
+  }
+
   .top-nav2 a:hover {
     color: white;
   }
@@ -1578,14 +1586,5 @@ main {
   .fund-grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
-
-  .info-links ul a {
-    text-decoration: none;
-    color: #000;
-    font-size: 14px;
-    font-weight: normal;
-    line-height: 16pt;
-    font-family: inherit;
   }
 }
