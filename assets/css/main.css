@@ -636,6 +636,7 @@ main {
   #hide768 {
     display: none;
   }
+
   /*  Latest Area  */
 
   /* Turn off Mobile Latest */
@@ -1289,6 +1290,7 @@ main {
   #hide768 {
     display: grid;
   }
+
   .grid-container {
     display: none;
   }
