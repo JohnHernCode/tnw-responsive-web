@@ -527,6 +527,19 @@ main {
 .latest-grid {
   display: none;
 }
+
+.latest-grid1 {
+  display: none;
+}
+
+.latest-deals-grid {
+  display:  none;
+}
+
+.latest-deals-grid1 {
+  display: none;
+}
+
 .latest-head-flex {
   display: flex;
   justify-content: space-between;
@@ -565,12 +578,12 @@ main {
 
 .latest img {
   width: 75px;
-  height: 55px;
+  height: 75px;
   padding-bottom: 20px;
 }
 
 .latest-items .child {
-  font-weight: 600;
+  font-weight: 300;
   font-size: 15px;
   padding-right: 15px;
   padding-left: 15px;
@@ -605,11 +618,20 @@ main {
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: space-around;
+  padding-right: 10px;
 }
 
 .link-wrap a {
   color: #ffffff;
   text-decoration: none;
+}
+
+.fafaicons span {
+  padding-right: 20px;
+}
+
+.foot-link-span span {
+  padding-right: 15px;
 }
 
 .footer-legal {
@@ -634,7 +656,7 @@ main {
 
   /* Start New Nav*/
   main {
-    padding-top: 60px;
+    padding-top: 30px;
   }
 
   .link-second2 {
@@ -695,7 +717,7 @@ main {
   }
 
   .link-second {
-    /* display: flex; */
+    display: flex;
     height: 47px;
     background-color: rgb(236, 236, 236);
     justify-content: space-around;
@@ -1051,13 +1073,19 @@ main {
   .latest-grid {
     display: grid;
   }
+
+  
+
+  .latest-grid1 {
+    display: none;
+  }
   
   .latest-items-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     /*grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));*/
     height: auto;
-    padding-left: 5px;
+    padding-left: 15px;
     padding-bottom: 5px;
     padding-right: 15px;
   }
@@ -1081,6 +1109,45 @@ main {
     font-size: 12px;
     color: #808080;
   }
+
+  /*latest deals 768 view*/
+  .latest-deals-grid1 {
+    display: none;
+  }
+
+  .latest-deals-grid {
+    display: grid;
+  }
+
+  .latest-items-deals-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /*grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));*/
+    height: auto;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+  }
+  
+  .latest-deals-grid img {
+    max-width: 161px;
+    max-height: 141px;
+    padding-bottom: 20px;
+  
+  }
+
+  .latest-items-deals-grid .child {
+    font-weight: 600;
+    font-size: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  .latest-items-deals-grid .child .price {
+    text-decoration: line-through;
+    font-size: 12px;
+    color: #808080;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -1089,7 +1156,7 @@ main {
   }
 
   .section-d {
-    visibility: visible;
+    display: grid;
   }
   
   .fund-grid-container {
@@ -1442,7 +1509,7 @@ main {
   }
 
   .link-second2 .second-divs:nth-child(7){
-    flex:1
+    flex:1;
   }
 
   .link-second2 a {
@@ -1457,6 +1524,91 @@ main {
   .link-second2 .search-link-box {
     float: right;
     opacity: 0.25;
+  }
+
+  /*Latest full width*/
+  .latest-deals-grid {
+    display: none;
+  }
+
+  .latest-deals-grid1 {
+    display: grid;
+  }
+
+  .latest-items-deals-grid1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /*grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));*/
+    height: auto;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+  }
+
+  .latest-items-deals-grid1 .child img {
+    width: 261px;
+    height: 194px;
+  }
+
+  .latest-items-deals-grid1 .child {
+    font-weight: 600;
+    font-size: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  .latest-items-deals-grid1 .child .price {
+    text-decoration: line-through;
+    font-size: 12px;
+    color: #808080;
+  }
+
+  .latest-grid {
+    display: none;
+  }
+
+  .latest-grid1 {
+    display: grid;
+  }
+
+  .latest-items-grid1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /*grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));*/
+    height: auto;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+  }
+  
+  /*.latest-grid1 img {
+    max-width: 161px;
+    max-height: 141px;
+    padding-bottom: 20px;
+  
+  }*/
+
+  .latest-items-grid1 .child img {
+    width: 250px;
+    height: 150px;
+  }
+
+  .latest-items-grid1 .child {
+    font-weight: 600;
+    font-size: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  .latest-items-grid1 .child .price {
+    text-decoration: line-through;
+    font-size: 12px;
+    color: #808080;
+  }
+
+  .fund-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 
 }
