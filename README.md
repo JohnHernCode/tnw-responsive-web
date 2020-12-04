@@ -6,36 +6,38 @@ Building with Responsive Design
 
 
 
-screenshot
+![screenshot](../images/ifr.jpeg)
 
-Built With
+replicating the The Next Web website [article page](https://thenextweb.com/)
 
-    HTML
-    CSS
+## Built With
 
+   - HTML
+   - CSS
 
+## Live Demo
 
-👤 Author1
+[Live Demo Link](https://johnhernandez-code.github.io/tnw-responsive-web/)
 
-    GitHub: @johnhernandez-code
+👤 **John Hernandez**
 
-👤 Author2
+- GitHub: [johnhernandez-code](https://github.com/johnhernandez-code)
 
-    GitHub: @Nasa28
+👤 **Kalu Chinasa Agu**
 
+- GitHub: [@Nasa](https://github.com/Nasa28)
+- Twitter: [@Ultimate_Nasa](https://twitter.com/Ultimate_Nasa)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/kalu-chinasa-agu-a15080103/)
 
-🤝 Contributing
+#### Contributions, issues and feature requests are welcome! Start by:
 
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the issues page.
-Show your support
+
+## Show your support
 
 Give a ⭐️ if you like this project!
-Acknowledgments
+## Acknowledgments
 
-    
-
-📝 License
-
-This project is ![MIT](https://github.com/JohnHernandez-code/tnw-responsive-web/blob/main/LICENSE) licensed.
+- Microverse
