@@ -22,7 +22,9 @@ Replicating [The Next Web website](https://thenextweb.com/)
 Usage
 
 git clone https://github.com/JohnHernandez-code/tnw-responsive-web.git
+
 cd tnw-responsive-web
+
 open index.html
 
 
