@@ -250,41 +250,51 @@ main {
 }
 
 /* latest funding starts here */
-.fund-main {
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  align-items: center;
+
+.section-d {
+  display: none;
 }
 
-.fund-nav ul {
+.fund-nav {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  list-style: none;
-  margin-right: 20px;
+  flex-wrap: wrap;
+  padding-left: 10px;
+  padding-top: 20px;
 }
 
-.fund-nav ul li:first-child {
-  font-size: 30px;
-  flex: 1;
-  color: #ff4500;
+.fund-title {
+  font-size: 24px;
+  font-weight: 700;
 }
 
-.fund-nav ul a {
+.fund-title a {
   text-decoration: none;
   color: #ff4500;
 }
 
-.hidden-li {
-  display: none;
+.fund-links {
+  padding-top: 10px;
+  font-size: 16px;
+  color: #ff4500;
+}
+
+.fund-links  a{
+  text-decoration: none;
+  color: #ff4500;
+}
+
+.fund-box {
+  height: 265px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
 }
 
 .lastest-fund {
   position: relative;
-  margin-left: 15px;
-  margin-right: 15px;
+  padding-left: 10px;
+  padding-right: 15px;
   background-color: rgb(255, 250, 248);
   padding-bottom: 15px;
 }
@@ -300,32 +310,40 @@ main {
   color: white;
   margin-top: 10px;
   padding-top: 10px;
-  background-color: red;
+  background-color: rgb(255, 0, 0);
   padding-left: 80px;
   color: white;
   padding-bottom: 10px;
   font-size: 16px;
 }
 
-a .lastest-fund .p-price {
+.fund-price {
+  height: 90px;
+  background: rgba(255,68,34,.08);
+}
+
+.p-price {
   font-size: 20px;
   line-height: 0;
   padding-left: 80px;
+  padding-top: 15px;
+  height: 30px;
 }
 
 .p-last {
   padding-left: 80px;
   margin-bottom: 20px;
-  padding-bottom: 20px;
+  height: 30px;
+  
 }
 
-.fund-main a {
+.fund-box a {
   text-decoration: none;
   color: black;
 }
 
 .my-ul {
-  border-bottom: 1px solid orange;
+  border-bottom: 1px solid rgba(255,68,34,.25);
 }
 
 .lastest-fund ul {
@@ -336,6 +354,18 @@ a .lastest-fund .p-price {
   display: flex;
   justify-content: flex-start;
   margin-left: 0px;
+  padding-left: 10px;
+  font-size: 12px;
+}
+
+.fund-details li{
+  padding-left: 10px;
+  font-size: 15px;
+  text-align: justify;
+}
+
+.fund-details .extra-one {
+  padding-left: 15px;
 }
 
 .lastest-fund header {
@@ -641,7 +671,7 @@ a .lastest-fund .p-price {
     padding-left: 10px;
     padding-right: 15px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
     padding-bottom: 40px;
   }
@@ -651,9 +681,15 @@ a .lastest-fund .p-price {
     text-decoration: none;
   }
 
+  .info-head {
+    padding-bottom: 15px;
+  }
+
   .info-title a {
     color: #f42;
     text-decoration: none;
+    font-weight: 900;
+    font-size: 28px;
   }
 
   .info-container-grid {
@@ -797,6 +833,17 @@ a .lastest-fund .p-price {
     color: #adabab;
   }
 
+  .grid-a .grid-logo {
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 15px;
+  }
+
+  .grid-a .grid-logo img {
+    height: 112px;
+    width: 338px;
+  }
+
   .grid-a {
     grid-area: first;
   }
@@ -933,9 +980,11 @@ a .lastest-fund .p-price {
     font-size: 20px;
   }
   
-  .latest-head-flex a {
+  .latest-head-flex .deals a {
     color: #f42;
     text-decoration: none;
+    font-weight: 700;
+    font-size: 26px;
   }
   
   .latest-head-flex .see-more {
@@ -981,43 +1030,147 @@ a .lastest-fund .p-price {
 }
 
 @media only screen and (min-width: 768px) {
-  .fund-main {
-    display: flex;
-    flex-direction: row;
+  .section-c {
+    display: none;
   }
 
-  .lastest-fund {
+  .section-d {
+    visibility: visible;
+  }
+  
+  .fund-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .fund-nav-grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-top: 20px;
+  }
+  
+  .fund-title-grid {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  .fund-title-grid a {
+    text-decoration: none;
+    color: #ff4500;
+  }
+  
+  .fund-links-grid {
+    padding-top: 10px;
+    font-size: 16px;
+    color: #ff4500;
+  }
+  
+  .fund-links-grid a{
+    text-decoration: none;
+    color: #ff4500;
+  }
+  
+  .fund-box-grid {
+    height: 265px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+  
+  .lastest-fund-grid {
     position: relative;
-    margin-left: 15px;
-    margin-right: 15px;
-    width: 280px;
+    padding-left: 10px;
+    padding-right: 15px;
     background-color: rgb(255, 250, 248);
     padding-bottom: 15px;
   }
-
-  .fund-nav ul a {
+  
+  .lastest-fund-grid .img-top-grid img {
+    position: absolute;
+    background-color: inherit;
+    top: 10px;
+    left: 20px;
+  }
+  
+  .lastest-fund-grid h4 {
+    color: white;
+    margin-top: 10px;
+    padding-top: 10px;
+    background-color: rgb(255, 0, 0);
+    padding-left: 80px;
+    color: white;
+    padding-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .fund-price-grid {
+    height: 90px;
+    background: rgba(255,68,34,.08);
+  }
+  
+  .p-price-grid {
+    font-size: 20px;
+    line-height: 0;
+    padding-left: 80px;
+    padding-top: 15px;
+    height: 30px;
+  }
+  
+  .p-last-grid {
+    padding-left: 80px;
+    margin-bottom: 20px;
+    height: 30px;
+    
+  }
+  
+  .fund-box-grid a {
     text-decoration: none;
-    color: #ff4500;
-    padding-left: 10px;
-    font-size: 18px;
+    color: black;
   }
-
-  .fund-nav ul .header-li {
-    font-size: 40px;
-    flex: 1;
+  
+  .my-ul-grid {
+    border-bottom: 1px solid rgba(255,68,34,.25);
   }
-
-  .lastest-fund {
-    position: relative;
-    margin-left: 20px;
+  
+  .lastest-fund-grid ul {
+    list-style: none;
   }
-
-  .hidden-li {
+  
+  .lastest-fund-grid .fund-details-grid {
     display: flex;
+    justify-content: flex-start;
+    margin-left: 0px;
+    padding-left: 10px;
+    font-size: 12px;
   }
+  
+  .fund-details-grid li{
+    padding-left: 10px;
+    font-size: 15px;
+    text-align: justify;
+  }
+  
+  .fund-details-grid .extra-one {
+    padding-left: 15px;
+  }
+  
+  .lastest-fund-grid header {
+    background-color: rgb(254, 242, 240);
+  }
+}
 
-  #header-li {
-    font-size: 80px;
-    flex: 1;
+/*media settings medium and up*/
+@media (min-width: 1024px) {
+  .info-boxes-grid {
+    padding-left: 10px;
+    padding-right: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    padding-bottom: 40px;
   }
 }
