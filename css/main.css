@@ -629,6 +629,43 @@ main {
 /* media settings medium and up */
 
 @media (min-width: 768px) {
+  /* latest deals 768 view */
+  .latest-deals-grid1 {
+    display: none;
+  }
+
+  .latest-deals-grid {
+    display: grid;
+  }
+
+  .latest-items-deals-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: auto;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+  }
+
+  .latest-deals-grid img {
+    max-width: 161px;
+    max-height: 141px;
+    padding-bottom: 20px;
+  }
+
+  .latest-items-deals-grid .child {
+    font-weight: 600;
+    font-size: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .latest-items-deals-grid .child .price {
+    text-decoration: line-through;
+    font-size: 12px;
+    color: #808080;
+  }
+
   /* turn off mobile cover */
   .flex-container {
     display: none;
@@ -1081,43 +1118,6 @@ main {
     font-size: 12px;
     color: #808080;
   }
-
-  /* latest deals 768 view */
-  .latest-deals-grid1 {
-    display: none;
-  }
-
-  .latest-deals-grid {
-    display: grid;
-  }
-
-  .latest-items-deals-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    height: auto;
-    padding-left: 15px;
-    padding-bottom: 5px;
-    padding-right: 15px;
-  }
-
-  .latest-deals-grid img {
-    max-width: 161px;
-    max-height: 141px;
-    padding-bottom: 20px;
-  }
-
-  .latest-items-deals-grid .child {
-    font-weight: 600;
-    font-size: 15px;
-    padding-right: 15px;
-    padding-left: 15px;
-  }
-
-  .latest-items-deals-grid .child .price {
-    text-decoration: line-through;
-    font-size: 12px;
-    color: #808080;
-  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -1423,6 +1423,37 @@ main {
     padding-bottom: 40px;
   }
 
+  /*second nav2*/
+
+  .link-second2 {
+    display: flex;
+    height: 47px;
+    background-color: rgb(236, 236, 236);
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
+    z-index: 994;
+  }
+
+  .link-second2 .second-divs:nth-child(7) {
+    flex: 1;
+  }
+
+  .link-second2 a {
+    text-decoration: none;
+    color: rgb(109, 109, 109);
+    padding-left: 25px;
+    text-transform: uppercase;
+    font-weight: 500;
+    opacity: 0.5;
+  }
+
+  .link-second2 .search-link-box {
+    float: right;
+    opacity: 0.25;
+  }
+
   main {
     padding-top: 25px;
   }
@@ -1461,35 +1492,6 @@ main {
 
   .top-nav2 a:hover {
     color: white;
-  }
-
-  .link-second2 {
-    display: flex;
-    height: 47px;
-    background-color: rgb(236, 236, 236);
-    justify-content: flex-start;
-    align-items: center;
-    list-style: none;
-    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
-    z-index: 994;
-  }
-
-  .link-second2 .second-divs:nth-child(7) {
-    flex: 1;
-  }
-
-  .link-second2 a {
-    text-decoration: none;
-    color: rgb(109, 109, 109);
-    padding-left: 25px;
-    text-transform: uppercase;
-    font-weight: 500;
-    opacity: 0.5;
-  }
-
-  .link-second2 .search-link-box {
-    float: right;
-    opacity: 0.25;
   }
 
   /* Latest full width */
