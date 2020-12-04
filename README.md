@@ -8,7 +8,7 @@ Building with Responsive Design
 
 ![screenshot](/images/ifr.jpeg)
 
-replicating the The Next Web website [article page](https://thenextweb.com/)
+Replicating the The [The Next Web website](https://thenextweb.com/)
 
 ## Built With
 
