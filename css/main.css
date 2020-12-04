@@ -126,8 +126,8 @@ main {
       to bottom,
       rgba(0, 0, 0, 0.7) 0%,
       rgba(0, 0, 0, 0.7) 100%
-      ),
-      url(../images/ifr.jpeg);
+    ),
+    url(../images/ifr.jpeg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -520,8 +520,8 @@ main {
       to bottom,
       rgba(0, 0, 0, 0.7) 0%,
       rgba(0, 0, 0, 0.7) 100%
-      ),
-      url(../images/sper.png);
+    ),
+    url(../images/sper.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -776,8 +776,8 @@ main {
         to bottom,
         rgba(0, 0, 0, 0.7) 0%,
         rgba(0, 0, 0, 0.7) 100%
-        ),
-        url(../images/carstuff.jpg);
+      ),
+      url(../images/carstuff.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -805,8 +805,8 @@ main {
         to bottom,
         rgba(0, 0, 0, 0.7) 0%,
         rgba(0, 0, 0, 0.7) 100%
-        ),
-        url(../images/carstuff.jpg);
+      ),
+      url(../images/carstuff.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -822,8 +822,8 @@ main {
         to bottom,
         rgba(0, 0, 0, 0.7) 0%,
         rgba(0, 0, 0, 0.7) 100%
-        ),
-        url(../images/carstuff.jpg);
+      ),
+      url(../images/carstuff.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1020,8 +1020,8 @@ main {
         to bottom,
         rgba(0, 0, 0, 0.7) 0%,
         rgba(0, 0, 0, 0.7) 100%
-        ),
-        url(../images/sper.png);
+      ),
+      url(../images/sper.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1285,8 +1285,8 @@ main {
         to bottom,
         rgba(0, 0, 0, 0.7) 0%,
         rgba(0, 0, 0, 0.7) 100%
-        ),
-        url(../images/carstuff.jpg);
+      ),
+      url(../images/carstuff.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1314,8 +1314,8 @@ main {
         to bottom,
         rgba(0, 0, 0, 0.7) 0%,
         rgba(0, 0, 0, 0.7) 100%
-        ),
-        url(../images/carstuff.jpg);
+      ),
+      url(../images/carstuff.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1331,8 +1331,8 @@ main {
         to bottom,
         rgba(0, 0, 0, 0.7) 0%,
         rgba(0, 0, 0, 0.7) 100%
-        ),
-        url(../images/carstuff.jpg);
+      ),
+      url(../images/carstuff.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
